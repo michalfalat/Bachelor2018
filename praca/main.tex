@@ -1,0 +1,299 @@
+\documentclass[11pt, oneside]{report}
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{float}
+\usepackage{titlesec}
+
+\usepackage[hidelinks,breaklinks]{hyperref}
+\usepackage[slovak]{babel} % vypnite pre prace v anglictine
+
+\usepackage[backend=bibtex,
+                style=authoryear,
+                natbib=true, 
+                style=numeric-comp
+                ]{biblatex} 
+\DeclareFieldFormat{url}{\url{#1}}
+\bibliography{literatura.bib} 
+\linespread{1.2} % hodnota 1.25 by mala zodpovedat 1.5 riadkovaniu
+\pagenumbering{arabic} 
+\urlstyle{same}
+
+\titleformat{\chapter}{\normalfont\huge\bf}{\thechapter.}{20pt}{\bf}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+% -----------------
+% --- Definicia zakladnych pojmov
+% --- Vyplnte podla vasho zadania
+% -------------------
+\def\mfrok{2018}
+\def\mfnazov{BAKALÁRSKA PRÁCA}
+\def\mfnazovprace{Odborná prax}
+\def\mfautor{Michal Falát}
+\def\mfskolitel{Petr Šaloun }
+\def\mfkonzultant{Boros Kovař }  
+
+\def\mfmiesto{Ostrava, \mfrok}
+\def\mfodbor{2508 Informatika} 
+\def\program{ Informatika }
+\def\mfpracovisko{ Katedra informatiky }
+\def\mftyp{bakalarka }
+
+\begin{document}  
+
+
+% -------------------
+% --- Obalka ------
+% -------------------
+\thispagestyle{empty}
+
+\begin{center}
+\sc\large
+VŠB - Technická univerzita Ostrava\\
+Fakulta elektrotechniky a informatiky
+
+
+\vfill
+
+{\LARGE\mfnazov}\\
+\end{center}
+
+\vfill
+
+{\sc\large 
+\noindent \mfrok \hfill  \hfill \mfautor
+}
+
+\eject % EOP i
+% --- koniec obalky ----
+
+
+\thispagestyle{empty}
+\noindent
+
+\begin{center}
+\sc  
+\large
+V\v SB - Technická univerzita Ostrava\\
+Fakulta elektrotechniky a informatiky
+
+\vfill
+
+{\LARGE\mfnazovprace}\\
+\end{center}
+
+\vfill
+
+
+
+{\sc\large 
+\noindent \mfrok \hfill  \hfill \mfautor
+}
+
+\eject % EOP i
+\setcounter{page}{3}
+\newpage 
+
+
+\setcounter{page}{4}
+
+\vfill
+{\bf Poďakovanie:} Chcel by som poďakovať svojim kolegom  z práce, ktorí si na mňa našli čas a boli ochotni mi pomôcť a vysvetliť akýkoľvek problém. Poďakovanie patri aj môjmu konzultantovi, Borisovi, ktorý mi zastrešil odbornú prax a venoval mi aj svoj voľný čas.
+
+% --- Koniec poďakovania
+
+% -------------------
+%   Abstrakt - Slovensky
+% -------------------
+\newpage 
+\section*{Abstrakt}
+
+
+Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme. V prvej časti  sa  v krátkosti   vysvetľuje činnosť a  zameranie firmy M2M Solutions s.r.o, v ktorej som   vykonával prax. Ďalšia  časť je venovaná samotným projektom a  zadaniam  spolu s riešeniami, na ktorých som pracoval. V závere práce popisujem   celkový súhrn  a využitie  znalostí  nadobudnutých počas školy a technológie, ktoré  som sa musel individuálne doučiť.
+
+
+
+\paragraph*{Kľúčové slová:} ASP.NET, Java, Angular, Typescript, android, IoT
+% --- Koniec Abstrakt - Slovensky
+
+\paragraph*{}
+
+\section*{Abstract}
+This bachelor thesis describes my individual practise in company. In first section I explain the company  M2M Solutions s.r.o,its activities and products. Next section is dedicated to tasks and solutions, which I work on. Finally I explain sumary of practise and usage of technologies, that a learn during school and technologies which I have to learn on my own.
+
+
+\paragraph*{Keywords:}  ASP.NET, Java, Angular, Typescript, android, IoT
+% --- Koniec Abstrakt - Anglicky
+
+
+%prehlasenie
+
+% -------------------
+% --- Obsah
+% -------------------
+
+\newpage 
+\tableofcontents
+
+% ---  Koniec Obsahu
+
+% -------------------
+% --- Zoznamy tabuliek, obrázkov - nepovinne
+% -------------------
+
+\newpage
+
+\chapter*{ Zoznam symbolov a skratiek }
+\addcontentsline{toc}{chapter}{Zoznam skratiek}  
+\begin{table}[H]
+\label{my-label}
+\begin{tabular}{lllll}
+API  & - &  application programming interface &  &  \\
+ASP&- &Active Server Pages  &  &  \\
+HTML & - &  Hypertext Markup Language&  &  \\
+IIoT & - &  Industrial Internet of Things  &  &  \\
+JS   & - & Javascript  &  &  \\
+JSON & - & Javascript object notation &  &  \\
+MVC  & - &  Model View Controller &  &  \\
+NF & - &  Normálna forma &  &  \\
+RSS & - &  Rich Site Summary &  &  \\
+SQL  & - &  Structured Query Language&  &  \\
+SPA  & - &  Single Page application&  &  \\
+XML  & - &  S&  &  \\
+ &  &  &  &  \\
+ &  &  &  & 
+\end{tabular}
+\end{table}
+\newpage 
+
+\listoffigures
+%\chapter{Zoznam Obrázkov}
+\addcontentsline{toc}{chapter}{\listfigurename}
+
+\newpage 
+
+\listoftables
+\addcontentsline{toc}{chapter}{\listtablename}
+
+% ---  Koniec Zoznamov
+
+
+
+%\chapter{Úvod}
+\input uvod.tex 
+
+\input firma.tex
+
+\chapter{Popis projektov}
+\section{Multimediálne informačné panely}
+Multimediálne informačné panely\cite{panely} je webová aplikácia napísaná v ASP.NET  MVC. Je využívaná na zobrazovanie rôznych  informácii na obrazovkách v rôznych časových slotoch. Aplikácia má  možnosť  jednoducho pridávať a meniť obsah  jednotlivých stránok, ktoré sa zobrazujú na obrazovkách.  Správanie a obsah stránok môže byť podla potreby nastavený pre každý panel samostatne. Vďaka tomu má široké využitie najmä  vo výrobe v logistike či v obchodných centrách.
+\section{LightNet TK}
+LightNet TK je webová aplikácia (Tenký klient), ktorá slúži na zobrazovanie dôležitých informácii o verejnom osvetlení pre starostov obcí. Jedná sa hlavne o zobrazovanie porúch vzniknutých na rozvádzačoch, časy svietenia jednotlivých lámp, mapy a iné dôležié informácie. Hierarchia systému sa  skladá z 2 častí:
+\begin{itemize}
+\item Aplikačné rozhranie (API) napísané v jazyku Java s použitím technológie Spring Boot
+\item Webový klient - SPA aplikácia, ktorá komunikuje s API. Je napísaná v Typescripte s použitím framweorku Angular
+\end{itemize} 
+
+\section{M2Ms IoT}
+M2Ms IoT - je pomerne malá časť rozsiahleho projektu, ktorý vynikol na základe požiadavky pre použitie IoT vo výrobnej hale. Jedná sa o android mobilnú aplikáciu, ktorá slúži ako kontroler medzi bezdrôtovými tlačidlami zn. Flic\cite{flic} a webovým rozhraním, ktoré zachytáva jednotlivé udalosti a robí ďalšiu business logiku. Každá udalosť vyvolaná tlačidlom, je vložená do fronty v mobilnom zariadení(SQL Lite databáza)  a následne poslaná na rozhranie. V prípade neúspešného odoslania ( napr. výpadok siete, nedostupnosť serveru a pod. )   je možné zadefinovať interval pre  opätovný pokus odoslať všetky neúspešné udalosti z fronty na rozhranie.
+
+\chapter{Použité technológie}
+V tejto sekcii v krátkosti zhrniem základné informácie o technológiach, s ktorými som sa počas odbornej praxe stretol a aktívne využíval. Okrem týchto  technológii som samozrejme používal radu ďalších, ale v menšej miere.
+
+\section{.NET Framework}
+
+.NET framework \cite{net} je bezplatná platforma vyvíjaná spoločnosťou Microsoft. Prvýkrát bola predstavená ešte v roku 2002 pod názvom .NET Framework 1.0. V súčasnosti sa používa verzia .NET 4.7, ktorá bola vydaná v roku 2017. Táto platforma obsahuje veľké množstvo knižníc napríklad pre prácu   so sieťou, s grafikou,  so súbormi a podobne. Je určená pre vývoj rôznych typov aplikácii. S pomocou .NET  je možno jednoducho vytvoriť napríklad webovú, mobilnú alebo desktop aplikáciu. Ďalšou veľkou výhodou tohto frameworku je, že je možné  s ním racovať vo viacerých programovacích jazykoch ako napr Visual Basic, F\# alebo najpoužívanejší C\#. Pre rozšírenie funkčnosti aplikácie je možnosť pridať ďalšie knižnice, ktoré sú ľahko stiahnutelné cez NuGet package manager. Počas praxe som využíval hlavne ASP.NET, ktorý je určený na vývoj webových stránok.
+
+\section{Angular}
+Angular\cite{angular} ( Často označovaný aj ako Angular2) je multiplatformový  open-source webový framework, v ktorom sa vyvíja front-end časť aplikácie. Pôvodne bol vyvinutý firmou Google v roku 2010 pod názvom AngularJS. Pre jeho obľúbenosť a široké  možnosti použitia bol koncom roka 2016 vydaný úplne nový framework Angular, ktorý s pôvodným AngularJS nemá už nič spoločné. V súčasnosti sa používa najnovšia verzia Angular 5.2.0.
+Jeho veľkou výhodou je používanie jazyku Typescript od firmy Microsoft,  s ktorým je možné vytvárať triedy, rozhrania a podporuje dátové typy, čo bežný Javascript nepodporuje. Angular disponuje dostatočným počtom knižníc a komponentov pre vývoj  SPA webovej aplikácie. Pre užívateľské rozhranie a príjemný UX zážitok je možné pridať aj knižnicu Material design \cite{material}, s ktorou  sa aplikácia stane moderná, prehľadná a responzívna.
+
+\section{GIT}
+GIT\cite{git} je distribuovaný systém na správu verzií. Bol vytvorený Linusom Torvaldsom v roku 2005. Pôvodne bol určený pre správu jadra operačného systému Linux. Jeho výhodou je, že každý užívateľ má vlastný repozitár, v ktorom môže robiť lokálne zmeny (príkaz \textit{commit}). Tieto zmeny môže následne zosynchronizovať  so serverom ( príkazy \textit{ pull, push}). Pri riešení konfliktov medzi lokálnzm repozitárom a serverom je použitý trojcestný zlučovací algoritmus (\textit{3-way merge}) 
+
+\chapter{Zadané úlohy a riešenia}
+\section{Multimediálne informačné panely}
+Na tomto projekte som pracoval  priebežne počas  obidvoch semestrov. Jednalo sa najmä o  odstraňovanie existujúcich chýb nahlásených zákazníkmi (Bugfixing), ale aj o vytváranie ďalších komponentov podľa požiadaviek. Práca na tomto projekte pozostávala z 3 väčších úloh  a  niekoľkých menších úloh(upravenie niektorých prvkov na stránke, zmeniť umiestnenie tlačidiel, preklad užívateľského manuálu do anglického jazyka a podobne.)
+\subsection*{Komponent RSS čítačka}
+\textit{Zadanie:}\\
+Pridať do projektu  komponent na zobrazenie obsahu z ľubovolného RSS zdroja a vytvoriť formulár na jeho editáciu.
+\\\textit{Analýza:}\\
+ RSS zdroj   je určený na čítanie noviniek  z webových stránok ako napríklad spravodajstvo, počasie, kurzove meny a pod. Takéto informácie  z internetu si na multimediálnych informačných paneloch nájdu svoje miesto. Mojou úlohou bolo naimplementovať komponent RSS čítačka, pridať  konfigurovatelné nastavenia pre tento komponent a otestovať jeho funkčnosť.
+Všetky ostatné komponenty sú implementované ako súbor JS funkcií s pár riadkami HTML kódu. Samotné ukladanie komponentov v databáze je riešené veľmi netradične. Jednotlivé komponenty nie sú ukladané ako konkrétne záznamy v tabuľke, ale celá stránka  so všetkými svojimi komponentami vrátanie JS a HTML je uložená ako jeden textový stĺpec. Toto nešťastné riešenie  pochádza  zo začiatkov pôsobenia firmy, kedy sa ešte nebral veľký ohľad na  škálovatelnosť a  správnosť ukladania dát. 
+Napriek tomu, že je porušený 1NF a 2NF, je produkt plne funkčný a používaný aj v súčasnosti. V rámci zachovania tohto konceptu som sa rozhodol pokračovať rovnakým spôsobom ukladania komponentov do databázy.
+\\\textit{Riešenie:}\\
+Ďalšia časť spočívala v naštudovaní samotného fungovania zobrazovania RSS zdroja. RSS feed je v podstate pravidelne upravovaný XML súbor, ktorý je možné stiahnúť z nejakého servera. V samotnom XML dokumente môžeme nájsť RSS verziu (V súčasnosti sa používa verzia 2.0 ) Dokument pozostáva z niekoľkých ďalších uzlov ako <title> , <description>, <link>
+\subsection*{Pridanie užívateľských rolí}
+\textit{Zadanie:}\\
+Upraviť bezpečnosť chodu aplikácie pridaním užívateľských rolí a overiť ich funkčnosť.
+\begin{enumerate}
+\item \textbf{Administrátor} - má možnosť pridať/editovať/vymazať panel, má možnosť pridať/editovať/vymazať stránku, má prístup k nastaveniam, môže manipulovať s časovou osou.
+\item \textbf{Autor} - má možnosť pridať/editovať panel, nemôže vymazať žiadny panel, má možnosť pridať/editovať/vymazať stránku, nemá prístup k nastaveniam, môže manipulovať s časovou osou.
+\item \textbf{Bežný používateľ} - nemá možnosť pridať/editovať/vymazať panel, nemá možnosť pridať/editovať/vymazať stránku, nemá prístup k nastaveniam, nemôže manipulovať s časovou osou.
+\end{enumerate}
+\textit{Analýza}\\
+V prvej časti budeme musieť upraviť tabuľku \textsf{users} a pridať do nej stĺpec, ktorý nám bude vyjadrovať konkrétnu užívateľskú rolu. V ďalšej časti 
+\textit{Riešenie}\\
+\subsection*{Import udalosti do databázy}
+\textit{Zadanie:}\\
+Pridať možnosť importu udalostí priamo do databázy z xlsx súboru. Pridať  chybové hlásenia pri  nesprávnom formáte dokumentu a informovať používateľa o výsledku importu
+\\\textit{Analýza}\\
+Pri niektorých zakazníkoch sme sa streli so zaujímavou požiadavkou. Pre rýchlejšie vkladanie  udalostí na jednotlivé panely by privítali možnosť nadefinovať si ich   v tabuľkovom editore (napr. Excel) a jednoduchým spôsobom vložiť do systému. Takéto riešenie ušetrí veľa času používateľa obzvlášť pri vysokých počtoch stránok a udalostí. Zároveň pridáva možnosť  do budúcnosti vytvoriť aj export udalostí, čo by znamenalo  jednoduchý a rýchly presun z jedného systému do druhého bez zásahu administrátora alebo manuálneho vytvárania.
+\\\textit{Riešenie}\\
+\section{LightNet TK}
+Na projekte LightNet TK som pracoval dokopy približne  30 dní. V tejto dobe  je zahrnutých aj 5 dní učenia  a pochopenia architektúry použitej vo frameworku Angular. Jednalo sa najmä o konečnú a finálnu úpravu produktu podľa potrieb zákazníka. Moja práca spočívala v úprave a vytváraní  komponentov napísaných v Typescripte a v malej miere aj práca na API  v jazyku Java s použitím technológie Spring Boot. Vďaka použitiu material design aplikácia vyzerá moderne ap prehľadne.
+\subsection*{Pridanie šablón pre merania na rozvádzačoch }
+\textit{Zadanie:}\\
+Pridať do projektu grafy  z meraní. Pridať možnosť zobraziť/schovať jednotlivé inštancie  z meraní. Konečný stav môže užívateľ uložiť ako šablónu.
+\\\textit{Analýza:}\\
+ Nakoľko sa na tejto stránke nachádzajú 4 grafy  a vysoký počet inštancii v samotných grafoch, je pre úžívateľa pomerne zložité sa v tom rýchlo zorientovať. 
+Šablóna bude uľahčovať zobrazenie grafov , ale najmä zprehľadní celú stránku od  údajov, ktoré užívateľ nepotrebuje. Táto úloha sa bude riešiť v prezenčnej vrstve - zobrazenie uživateľovi, tlačidlo na pridanie a výber šablóny . Ukladanie jednotlivých šablón bude prebiehať  na serveri, do Postre SQL databázy.
+\\\textit{Riešenie:}\\
+Prvým krokom bolo vymyslieť rozmiestnenie jednotlivých  tlačidiel na stránke a realizovať samotný výber šablón. To som realizoval pomocou klasického dropdown listu. V angulare môžeme tento  prvok nájsť pod názvom \textsf{<mat-select>}. V dropdowne budu zobrazené šablóny stiahnuté zo servera. Pre obmedzené miesto vo widgete grafov som sa rozhodol umiestniť tlačidlona pridanie šablóny priamo do dropdown listu. Po výbere tejto možnosti sa zobrazí dialóg pre zadanie názvu šablóny. Tento dialog je realizovaný ako samotný komponent s názvom  \textsf{MatDialog}. Po zadaní názvu sa kontroluje, či užívateľ nezadal nebezpečné symboly ako úvodzovky, pomlčký, medzeru  a podobne. V  tomto zozname tiež bude možnosť pre všetky grafy a inštancie bez možnosti editácie. To je vhodné vtedy, ak úžívateľ chce mať pri vstupe na stránku zobrazené všetky údaje. 
+\subsection*{Lokalizácia SK/EN}
+\textit{Zadanie:}\\
+Lokalizovať aplikáciu do SK/EN jazyka s možnosťou výberu jazyka.
+\\\textit{Analýza:}\\
+Hlavnou myšlienkou lokalizácie bolo určiť, či sa bude vykonávať na serveri, alebo na strane klienta.
+\\\textit{Riešenie:}\\
+a
+\subsection*{Pridanie kontaktného formuláru }
+\textit{Zadanie:}\\
+Pridať komponent pre kontaktn formulár. Vytvoriť emailové konto a správne ho nakonfigurovať v aplikácii.
+\\\textit{Analýza:}\\
+a
+\\\textit{Riešenie:}\\
+a
+\subsection*{Optimalizácia pre mobilné zariadenia}
+\textit{Zadanie:}\\
+Optimalizovať aplikáciu pre všetky mobilné zariadenia a bežne používané prehliadače.
+\\\textit{Analýza:}\\
+e
+\\\textit{Riešenie:}\\
+a
+\subsection*{Inteligentná lišta }
+\textit{Zadanie:}\\
+Pridať navigačnú lištu s tlačidlami a aktualnym časom. Lišta sa po posune stránky nadol skryje a po posune stránky hore sa opäť zobrazí.
+\\\textit{Analýza:}\\
+Inteligentnú lištu môžeme nájsť na takmer každej modernej webovej stránke. Jej úlohou je najmä zväčšiť plochu užitočných informácii na stránke, ale stále mať k dispozicii dôležité odkazy a tlačidlá  bez  zbytočného scrollovania na vrch stránky. Veľž rozdiel je spoznatelný najmä pri prehliadaní stránky na mobilnom zariadení s malým rozlíšením. 
+\\\textit{Riešenie:}\\
+Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu html komponentov používam CSS3.Zároveň bolo potrebné detekovať užívateľov pohyb kolieskom myši nahor a nadol pre zobrazenie a skrytie lišty.
+
+\section{M2Ms IoT}
+
+
+\newpage	
+
+%\backmatter
+
+\thispagestyle{empty}
+\nocite{*}
+\clearpage
+
+\printbibliography
+
+\end{document}
+
+

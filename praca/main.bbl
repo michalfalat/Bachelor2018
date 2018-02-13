@@ -1,0 +1,173 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{material}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IG}{%
+         family={Inc.},
+         familyi={I\bibinitperiod},
+         given={Github},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IG1}
+    \strng{fullhash}{IG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{angular/material2: Material Design components for
+  Angular}}
+    \verb{url}
+    \verb https://github.com/angular/material2
+    \endverb
+    \field{year}{c2018[cit. 11.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{angular}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IG}{%
+         family={Inc.},
+         familyi={I\bibinitperiod},
+         given={Github},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IG1}
+    \strng{fullhash}{IG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{Releases angular/angular}}
+    \verb{url}
+    \verb https://github.com/angular/angular/releases
+    \endverb
+    \field{year}{c2018[cit. 11.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{net}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Microsoft},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{What is .NET?} [online]}
+    \verb{url}
+    \verb https://www.microsoft.com/net/learn/what-is-dotnet
+    \endverb
+    \field{year}{c2018[cit. 7.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{panely}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ssM}{%
+         prefix={solutions},
+         prefixi={s\bibinitperiod},
+         family={s.r.o},
+         familyi={s\bibinitperiod},
+         given={M2M},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{sMs1}
+    \strng{fullhash}{sMs1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{Multimediálne informačné panely | M2M Solutions,
+  s.r.o. }}
+    \verb{url}
+    \verb http://www.m2ms.sk/produkty/multimedialne-informacne-panely/
+    \endverb
+    \field{year}{c2018[cit. 11.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{firma}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ssM}{%
+         prefix={solutions},
+         prefixi={s\bibinitperiod},
+         family={s.r.o},
+         familyi={s\bibinitperiod},
+         given={M2M},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{sMs1}
+    \strng{fullhash}{sMs1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{O nás}}
+    \verb{url}
+    \verb http://www.m2ms.sk/o-nas/
+    \endverb
+    \field{year}{c2018[cit. 7.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{flic}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{Flic - Smart Bluetooth Button - Pure simplicity at
+  the click of a button.}}
+    \verb{url}
+    \verb https://flic.io/
+    \endverb
+    \field{year}{c2018[cit. 13.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{git}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{{Git} - {W}ikipedia{,} The Free Encyclopedia}}
+    \verb{url}
+    \verb http://en.wikipedia.org/w/index.php?title=Git&oldid=820262710
+    \endverb
+    \field{year}{c2018[cit. 15.1.2018]. Dostupné z:}
+  \endentry
+\enddatalist
+\endinput

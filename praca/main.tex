@@ -261,10 +261,11 @@ Hlavnou myšlienkou lokalizácie bolo určiť, či sa bude vykonávať na server
 a
 \subsection*{Pridanie kontaktného formuláru }
 \textit{Zadanie:}\\
-Pridať komponent pre kontaktn formulár. Vytvoriť emailové konto a správne ho nakonfigurovať v aplikácii.
+Pridať komponent pre kontaktný formulár. Vytvoriť emailové konto a správne ho nakonfigurovať v aplikácii.
 \\\textit{Analýza:}\\
-a
+Táto úloha sa dala rozdeliť zase do 2 samostatných úloh. Jednalo sa o vytvorenie formuláru, ktorý vidí užvateľ a  samostatné odoslanie emailu z hrubého klienta na adresu zadanú zákazníkom. Aby aplikácia bola schopná posielať emaily, bolo potrebné vytvoriť emailový učeť a správne ho nakonfigurovať.
 \\\textit{Riešenie:}\\
+Samostatný formulár sa skladá zo 6 polí(Meno odosielateľa,spoločnosť, Adresa, Telefón, Email a Text správy) Tieto polia boli vyžiadané zakazníkom  pričom povinne vyplnené polia musia byť Meno, Email a Text správy. V angulári om si vytvorit triedu [meno], ktorá obsahovala všetky polia formuláru. Anglular obsahuje aj knižnice a mechanizmy na prácu s formulármi. Pomocou two-way databinding som načítal do inštancie tejto triedy. Potrebné validácie a pravidlá sa dajú riešiť dvomi spôsobmi.  Kvôli jednoduchosti a rýchlosti som sa rozhodol vytvoriť emailový účet na gmail od google.
 a
 \subsection*{Optimalizácia pre mobilné zariadenia}
 \textit{Zadanie:}\\

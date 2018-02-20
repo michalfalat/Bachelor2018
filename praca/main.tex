@@ -115,7 +115,7 @@ Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme. V prvej 
 
 
 
-\paragraph*{Kľúčové slová:} ASP.NET, Java, Angular, Typescript, android, IoT
+\paragraph*{Kľúčové slová:} ASP.NET, Java, Angular, Typescript, MVC
 % --- Koniec Abstrakt - Slovensky
 
 \paragraph*{}
@@ -124,7 +124,7 @@ Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme. V prvej 
 This bachelor thesis describes my individual practise in company. In first section I explain the company  M2M Solutions s.r.o,its activities and products. Next section is dedicated to tasks and solutions, which I work on. Finally I explain sumary of practise and usage of technologies, that a learn during school and technologies which I have to learn on my own.
 
 
-\paragraph*{Keywords:}  ASP.NET, Java, Angular, Typescript, android, IoT
+\paragraph*{Keywords:}  ASP.NET, Java, Angular, Typescript, MVC
 % --- Koniec Abstrakt - Anglicky
 
 
@@ -153,7 +153,6 @@ This bachelor thesis describes my individual practise in company. In first secti
 API  & - &  application programming interface &  &  \\
 ASP&- &Active Server Pages  &  &  \\
 HTML & - &  Hypertext Markup Language&  &  \\
-IIoT & - &  Industrial Internet of Things  &  &  \\
 JS   & - & Javascript  &  &  \\
 JSON & - & Javascript object notation &  &  \\
 MVC  & - &  Model View Controller &  &  \\
@@ -196,8 +195,9 @@ LightNet TK je webová aplikácia (Tenký klient), ktorá slúži na zobrazovani
 \item Webový klient - SPA aplikácia, ktorá komunikuje s API. Je napísaná v Typescripte s použitím framweorku Angular
 \end{itemize} 
 
-\section{M2Ms IoT}
-M2Ms IoT - je pomerne malá časť rozsiahleho projektu, ktorý vynikol na základe požiadavky pre použitie IoT vo výrobnej hale. Jedná sa o android mobilnú aplikáciu, ktorá slúži ako kontroler medzi bezdrôtovými tlačidlami zn. Flic\cite{flic} a webovým rozhraním, ktoré zachytáva jednotlivé udalosti a robí ďalšiu business logiku. Každá udalosť vyvolaná tlačidlom, je vložená do fronty v mobilnom zariadení(SQL Lite databáza)  a následne poslaná na rozhranie. V prípade neúspešného odoslania ( napr. výpadok siete, nedostupnosť serveru a pod. )   je možné zadefinovať interval pre  opätovný pokus odoslať všetky neúspešné udalosti z fronty na rozhranie.
+\section{.NET platforma M2Ms}
+.NET platforma M2Ms - Tvorí jadro, ktoré je použité v každom projekte .NET. Jej vývoj začal v máji 2017 a v súčasnosti sa  M2Ms .NET platforma je komponentovo orientovaná a propietárne vyvintá .NET tímom  vo  firme M2M solutions. Je v poradí 3. platforma Narozdiel od minulých verzii, ktoré fungovali na ASP WebForms, nová platforma beží na MVC5,
+%M2Ms IoT - je pomerne malá časť rozsiahleho projektu, ktorý vynikol na základe požiadavky pre použitie IoT vo výrobnej hale. Jedná sa o android mobilnú aplikáciu, ktorá slúži ako kontroler medzi bezdrôtovými tlačidlami zn. Flic\cite{flic} a webovým rozhraním, ktoré zachytáva jednotlivé udalosti a robí ďalšiu business logiku. Každá udalosť vyvolaná tlačidlom, je vložená do fronty v mobilnom zariadení(SQL Lite databáza)  a následne poslaná na rozhranie. V prípade neúspešného odoslania ( napr. výpadok siete, nedostupnosť serveru a pod. )   je možné zadefinovať interval pre  opätovný pokus odoslať všetky neúspešné udalosti z fronty na rozhranie.
 
 \chapter{Použité technológie}
 V tejto sekcii v krátkosti zhrniem základné informácie o technológiach, s ktorými som sa počas odbornej praxe stretol a aktívne využíval. Okrem týchto  technológii som samozrejme používal radu ďalších, ale v menšej miere.
@@ -271,9 +271,15 @@ a
 \textit{Zadanie:}\\
 Optimalizovať aplikáciu pre všetky mobilné zariadenia a bežne používané prehliadače.
 \\\textit{Analýza:}\\
-e
+Responzivita webových stránok patrí v roku 2018 už k štandardom a moderný web sa bez nej nezaobíde. Minimálne rozlíšenie, na ktoré som sa rozhodol aplikáciu optimalizovať  bolo na šírku  350px, čo zvládné väčšina súčasných mobilných telefónov.  Samotné rozloženie  informácii z aplikácie je rozdelené to tzv. widgetov čo predstavovalo okno s plávajúcou šírkou podľa obsahu. Ďalšou úlohou bude upraviť  texty aj v hornej lište, pretože obsahuje veľký počet informácii (čas, meno prihláseného užívateľa, výber jazyka, odhlásenie)
 \\\textit{Riešenie:}\\
-a
+Samotnú responzivitu som riešil  úpravou CSS tried pomocou \textsf{@media-query}, čo je funkcia, ktorá sa používa v CSS3. V nej sa zadefinuje pomocou parametrov, či chceme zmeniť triedu keď je rozlíšenie väčšie alebo menšie ako zadané v parametri. Ja som sa rozhodol upravovať triedy pre 3 rôyne rozlíšenia:
+\begin{enumerate}
+\item \textbf{350px- ???px} - Rozlíšenie, ktoré je možné nájsť na väčšine mobilných telefónov.
+\item \textbf{???p - ??? px} -  Rozlíšenie, ktoré sa používa na tabletoch, poprípade na mobilných telefónoch otočených horizontálne (na šírku)
+\item \textbf{>??px} -  Rozlíšenie použité na notebokoch a stolových počítačoch. Na tejto sekcii bolo vykonaných najmenej úprav, keďže stránka bola vyvíjaná na notebooku s takýmto rozlíšením.
+\end{enumerate}
+Responzivitu môžeme jednoducho simulovať použitým vývojárskych nástrojov  v google Chrome.  Po 
 \subsection*{Inteligentná lišta }
 \textit{Zadanie:}\\
 Pridať navigačnú lištu s tlačidlami a aktualnym časom. Lišta sa po posune stránky nadol skryje a po posune stránky hore sa opäť zobrazí.
@@ -282,8 +288,7 @@ Inteligentnú lištu môžeme nájsť na takmer každej modernej webovej stránk
 \\\textit{Riešenie:}\\
 Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu html komponentov používam CSS3.Zároveň bolo potrebné detekovať užívateľov pohyb kolieskom myši nahor a nadol pre zobrazenie a skrytie lišty.
 
-\section{M2Ms IoT}
-
+\section{.NET Platforma M2Ms}
 
 \newpage	
 

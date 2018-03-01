@@ -243,7 +243,7 @@ Pridať možnosť importu udalostí priamo do databázy z xlsx súboru. Pridať 
 Pri niektorých zakazníkoch sme sa streli so zaujímavou požiadavkou. Pre rýchlejšie vkladanie  udalostí na jednotlivé panely by privítali možnosť nadefinovať si ich   v tabuľkovom editore (napr. Excel) a jednoduchým spôsobom vložiť do systému. Takéto riešenie ušetrí veľa času používateľa obzvlášť pri vysokých počtoch stránok a udalostí. Zároveň pridáva možnosť  do budúcnosti vytvoriť aj export udalostí, čo by znamenalo  jednoduchý a rýchly presun z jedného systému do druhého bez zásahu administrátora alebo manuálneho vytvárania.
 \\\textit{Riešenie}\\
 \section{LightNet TK}
-Na projekte LightNet TK som pracoval dokopy približne  30 dní. V tejto dobe  je zahrnutých aj 5 dní učenia  a pochopenia architektúry použitej vo frameworku Angular. Jednalo sa najmä o konečnú a finálnu úpravu produktu podľa potrieb zákazníka. Moja práca spočívala v úprave a vytváraní  komponentov napísaných v Typescripte a v malej miere aj práca na API  v jazyku Java s použitím technológie Spring Boot. Vďaka použitiu material design aplikácia vyzerá moderne ap prehľadne.
+Na projekte LightNet TK som pracoval dokopy približne  30 dní. V tejto dobe  je zahrnutých aj 5 dní učenia  sa architektúry použitej vo frameworku Angular. Jednalo sa najmä o konečnú a finálnu úpravu produktu podľa potrieb zákazníka. Moja práca spočívala v úprave a vytváraní  komponentov napísaných v Typescripte a v malej miere aj práca na API  v jazyku Java s použitím technológie Spring Boot. Vďaka použitiu material design aplikácia vyzerá moderne a prehľadne.
 \subsection*{Pridanie šablón pre merania na rozvádzačoch }
 \textit{Zadanie:}\\
 Pridať do projektu grafy  z meraní. Pridať možnosť zobraziť/schovať jednotlivé inštancie  z meraní. Konečný stav môže užívateľ uložiť ako šablónu.
@@ -265,8 +265,14 @@ Pridať komponent pre kontaktný formulár. Vytvoriť emailové konto a správne
 \\\textit{Analýza:}\\
 Táto úloha sa dala rozdeliť zase do 2 samostatných úloh. Jednalo sa o vytvorenie formuláru, ktorý vidí užvateľ a  samostatné odoslanie emailu z hrubého klienta na adresu zadanú zákazníkom. Aby aplikácia bola schopná posielať emaily, bolo potrebné vytvoriť emailový učeť a správne ho nakonfigurovať.
 \\\textit{Riešenie:}\\
-Samostatný formulár sa skladá zo 6 polí(Meno odosielateľa,spoločnosť, Adresa, Telefón, Email a Text správy) Tieto polia boli vyžiadané zakazníkom  pričom povinne vyplnené polia musia byť Meno, Email a Text správy. V angulári om si vytvorit triedu [meno], ktorá obsahovala všetky polia formuláru. Anglular obsahuje aj knižnice a mechanizmy na prácu s formulármi. Pomocou two-way databinding som načítal do inštancie tejto triedy. Potrebné validácie a pravidlá sa dajú riešiť dvomi spôsobmi.  Kvôli jednoduchosti a rýchlosti som sa rozhodol vytvoriť emailový účet na gmail od google.
-a
+Samostatný formulár sa skladá zo 6 polí(Meno odosielateľa,Spoločnosť, Adresa, Telefón, Email a Text správy) Tieto polia boli vyžiadané zakazníkom  pričom povinne vyplnené polia musia byť Meno, Email a Text správy. V angulári som si vytvoril triedu [meno], ktorá obsahovala všetky polia formuláru. Anglular obsahuje aj knižnice a mechanizmy na prácu s formulármi a ich validaciu Túto knižnicu some si museli naimportovať z  \textsf{cesta///}. Pomocou two-way databinding som načítal dáta  do inštancie tejto triedy. Potrebné validácie a pravidlá sa dajú riešiť dvomi spôsobmi. 
+\begin{enumerate}
+\item\textbf{Template-driven validácia} Do HTML časti  sa integrujú  atributy pre validáciu vstupov napr.: \textsf{required, minlenght, maxlenght}. Takýmto spôsobom  je niej možné formulár validovať dynamicky, čo v našom prípade ani nepotrebujeme.
+\item\textbf{Reactive form validácia} Pod týmto názvom sa skrýva komplexnejšia  validácia v angular aplikáciách. Validácia sa vytvára priamo v triede komponentu pomocou funkcii.  Toto je vhodné, ak chceme validovať nejaké polia dynamicky, napríklad kontrolovať, či sa zadaná emailová adresa  už nieje použitá bez odoslania formuláru.
+ V našom  prípade som sa rozhodol použiť Template-driven validáciu nakoľko postačuje pre náš kontaktný formulár. 
+
+\end{enumerate} 
+ Druhou časťou bolo nájsť možnosť, ako posielať správy na email zakazníka. Bolo potrebne vytvoriť prostredníka, ktorý údaje z formuláru prepošle na email.  Ja som sa rozhodol vytvoriť emailovú schránku a nakonfigurovať ju v serverovej časti.
 \subsection*{Optimalizácia pre mobilné zariadenia}
 \textit{Zadanie:}\\
 Optimalizovať aplikáciu pre všetky mobilné zariadenia a bežne používané prehliadače.
@@ -286,9 +292,11 @@ Pridať navigačnú lištu s tlačidlami a aktualnym časom. Lišta sa po posune
 \\\textit{Analýza:}\\
 Inteligentnú lištu môžeme nájsť na takmer každej modernej webovej stránke. Jej úlohou je najmä zväčšiť plochu užitočných informácii na stránke, ale stále mať k dispozicii dôležité odkazy a tlačidlá  bez  zbytočného scrollovania na vrch stránky. Veľž rozdiel je spoznatelný najmä pri prehliadaní stránky na mobilnom zariadení s malým rozlíšením. 
 \\\textit{Riešenie:}\\
-Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu html komponentov používam CSS3.Zároveň bolo potrebné detekovať užívateľov pohyb kolieskom myši nahor a nadol pre zobrazenie a skrytie lišty.
+Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu html komponentov používam CSS3.Zároveň bolo potrebné detekovať užívateľov pohyb na stránke nahor a nadol pre zobrazenie a skrytie lišty. To som  urobil pomocou registrácie listenera priamo v hlavnom komponente.  Pre krajší efekt a lepší UX  zážitok  som okrem posunu lišty a jej skrytia pridal atribut na zníženie priehľadnosti \textsf{opacity:0}
 
-\section{.NET Platforma M2Ms}
+\section{Správa operátoro??v}
+xxx je jeden z prvých projektov, ktorý beží na našej novej propietárne vyvinutej platforme, s čím súviselo aj súčasné odlaďovanie chýb na platforme. Jedná sa o ASP.NET webove stránky napísané v jazyku C\#. Ako ORM nástroj  bol použitý Entity framework. Projekt je vyvíjaný podľa architektúry MVC, ktorá oddeluje rôzne vrstvy systému. Súčasne s MVC architekrúrou boli použité aj ďalšie návrhové vzory. Pre oddelenie business logiky od kontrolerov a pre prácu s DB je použitý návrhový vzor \textbf{Repozitár}. V projekte je vytvorený repozitár pre každú entitu  čím  sprehľadnuje celú aplikáciu a sústreduje všetky metody na prístup do databázy na jedno miesto. Ďalší návrhový vzor je \textbf{Unit OF Work}. Ten sa stará o 
+
 
 \newpage	
 

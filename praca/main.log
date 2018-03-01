@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.12.28)  19 FEB 2018 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.12.28)  1 MAR 2018 21:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -1029,45 +1029,30 @@ la£i-diel na stránke a re-al-i-zo-va´ samotný
  []
 
 [15] [16] [17] [18]
-Overfull \hbox (9.23639pt too wide) in paragraph at lines 302--302
+Overfull \hbox (9.23639pt too wide) in paragraph at lines 309--309
 \T1/cmr/m/n/10.95 c2018[cit. 11.1.2018]. Dos-tupné z: []$http : / / www . m2ms 
 . sk / produkty / multimedialne -[] informacne -[]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 [19
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7053D2BBE026E7E997F080CBCE396E7B;1183
-(rerunfilecheck)             After:  9CD6650CE46241A7EF6C56F4502118C9;1205.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 744CED9BA7897C2F183F41918A543221;1211.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 13727 strings out of 493347
- 222263 string characters out of 3139716
+ 13729 strings out of 493347
+ 222275 string characters out of 3139716
  510703 words of memory out of 3000000
  17038 multiletter control sequences out of 15000+200000
  16051 words of font info for 36 fonts, out of 3000000 for 9000
@@ -1084,9 +1069,9 @@ KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Asus\AppData
 s\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <C:\
 Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200
 .pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (18 pages, 205436 bytes).
+Output written on main.pdf (18 pages, 212931 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 687 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

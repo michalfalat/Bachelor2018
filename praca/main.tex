@@ -9,6 +9,67 @@
 
 \usepackage[hidelinks,breaklinks]{hyperref}
 \usepackage[slovak]{babel} % vypnite pre prace v anglictine
+\usepackage{listings}\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{orange}{rgb}{1,0.45,0}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+
+\lstdefinelanguage{JavaScript}{
+  morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  morestring=[b]",
+  morestring=[b]'
+}
+
+\lstdefinelanguage{HTML5}{
+		showstringspaces=true,
+		keepspaces=true,
+        language=html,
+        sensitive=true, 
+		literate=%
+		{@}{{{\color{orange}@}}}1
+		{\{}{{{\color{orange}\{}}}1
+		{\}}{{{\color{orange}\}}}}1,
+        alsoletter={<>=-},
+        otherkeywords={
+        % HTML tags
+        <html>, <head>, <title>, </title>, <meta, />, </head>, <body>,
+        <canvas, \/canvas>, <script>, </script>, </body>, </html>, <!, html>, <style>, </style>, ><
+        },
+        ndkeywords={
+        % General
+        =,
+        % HTML attributes
+        charset=, id=, width=, height=,
+        % CSS properties
+        border:, transform:, -moz-transform:, transition-duration:, transition-property:, transition-timing-function:
+        },  
+        morecomment=[s]{<!--}{-->},
+        tag=[s],        
+}
 
 \usepackage[backend=bibtex,
                 style=authoryear,
@@ -160,7 +221,7 @@ NF & - &  Normálna forma &  &  \\
 RSS & - &  Rich Site Summary &  &  \\
 SQL  & - &  Structured Query Language&  &  \\
 SPA  & - &  Single Page application&  &  \\
-XML  & - &  S&  &  \\
+XML  & - &  eXtensible Markup Language &  &  \\
  &  &  &  &  \\
  &  &  &  & 
 \end{tabular}
@@ -187,7 +248,7 @@ XML  & - &  S&  &  \\
 
 \chapter{Popis projektov}
 \section{Multimediálne informačné panely}
-Multimediálne informačné panely\cite{panely} je webová aplikácia napísaná v ASP.NET  MVC. Je využívaná na zobrazovanie rôznych  informácii na obrazovkách v rôznych časových slotoch. Aplikácia má  možnosť  jednoducho pridávať a meniť obsah  jednotlivých stránok, ktoré sa zobrazujú na obrazovkách.  Správanie a obsah stránok môže byť podla potreby nastavený pre každý panel samostatne. Vďaka tomu má široké využitie najmä  vo výrobe v logistike či v obchodných centrách.
+Multimediálne informačné panely\cite{panely} je webová aplikácia napísaná v ASP.NET s MVC architektúrou. Je využívaná na zobrazovanie rôznych  informácii na obrazovkách v rôznych časových slotoch. Aplikácia má  možnosť  jednoducho pridávať a meniť obsah  jednotlivých stránok, ktoré sa zobrazujú na obrazovkách.  Správanie a obsah stránok môže byť podla potreby nastavený pre každý panel samostatne. Vďaka tomu má široké využitie najmä  vo výrobe v logistike či v obchodných centrách.
 \section{LightNet TK}
 LightNet TK je webová aplikácia (Tenký klient), ktorá slúži na zobrazovanie dôležitých informácii o verejnom osvetlení pre starostov obcí. Jedná sa hlavne o zobrazovanie porúch vzniknutých na rozvádzačoch, časy svietenia jednotlivých lámp, mapy a iné dôležié informácie. Hierarchia systému sa  skladá z 2 častí:
 \begin{itemize}
@@ -215,16 +276,33 @@ GIT\cite{git} je distribuovaný systém na správu verzií. Bol vytvorený Linus
 
 \chapter{Zadané úlohy a riešenia}
 \section{Multimediálne informačné panely}
-Na tomto projekte som pracoval  priebežne počas  obidvoch semestrov. Jednalo sa najmä o  odstraňovanie existujúcich chýb nahlásených zákazníkmi (Bugfixing), ale aj o vytváranie ďalších komponentov podľa požiadaviek. Práca na tomto projekte pozostávala z 3 väčších úloh  a  niekoľkých menších úloh(upravenie niektorých prvkov na stránke, zmeniť umiestnenie tlačidiel, preklad užívateľského manuálu do anglického jazyka a podobne.)
+Na tomto projekte som pracoval  priebežne počas  obidvoch semestrov. Jednalo sa najmä o  odstraňovanie existujúcich chýb nahlásených zákazníkmi (Bugfixing), ale aj o vytváranie ďalších komponentov a úpravu podľa požiadaviek. Práca na tomto projekte pozostávala z 3 väčších úloh  a  niekoľkých menších úloh(upravenie niektorých prvkov na stránke, zmeniť umiestnenie tlačidiel, preklad užívateľského manuálu do anglického jazyka a podobne)
 \subsection*{Komponent RSS čítačka}
 \textit{Zadanie:}\\
 Pridať do projektu  komponent na zobrazenie obsahu z ľubovolného RSS zdroja a vytvoriť formulár na jeho editáciu.
 \\\textit{Analýza:}\\
- RSS zdroj   je určený na čítanie noviniek  z webových stránok ako napríklad spravodajstvo, počasie, kurzove meny a pod. Takéto informácie  z internetu si na multimediálnych informačných paneloch nájdu svoje miesto. Mojou úlohou bolo naimplementovať komponent RSS čítačka, pridať  konfigurovatelné nastavenia pre tento komponent a otestovať jeho funkčnosť.
-Všetky ostatné komponenty sú implementované ako súbor JS funkcií s pár riadkami HTML kódu. Samotné ukladanie komponentov v databáze je riešené veľmi netradične. Jednotlivé komponenty nie sú ukladané ako konkrétne záznamy v tabuľke, ale celá stránka  so všetkými svojimi komponentami vrátanie JS a HTML je uložená ako jeden textový stĺpec. Toto nešťastné riešenie  pochádza  zo začiatkov pôsobenia firmy, kedy sa ešte nebral veľký ohľad na  škálovatelnosť a  správnosť ukladania dát. 
+ RSS zdroj   je určený na čítanie noviniek  z webových stránok ako napríklad spravodajstvo, počasie, kurzové meny a pod. Takéto informácie  z internetu si na multimediálnych informačných paneloch nájdu svoje uplatnenie. Mojou úlohou bolo naimplementovať komponent RSS čítačka, pridať  konfigurovatelné nastavenia pre tento komponent a otestovať jeho funkčnosť.
+Všetky ostatné komponenty sú implementované ako súbor JS funkcií s niekoľkými riadkami HTML kódu. Samotné ukladanie komponentov v databáze je riešené veľmi netradične. Jednotlivé komponenty nie sú ukladané ako konkrétne záznamy v tabuľke, ale celá stránka  so všetkými svojimi komponentami vrátanie JS a HTML je uložená ako jeden textový stĺpec. Toto nešťastné riešenie  pochádza  zo začiatkov pôsobenia firmy, kedy sa ešte nebral veľký ohľad na  škálovatelnosť a  správnosť ukladania dát. 
 Napriek tomu, že je porušený 1NF a 2NF, je produkt plne funkčný a používaný aj v súčasnosti. V rámci zachovania tohto konceptu som sa rozhodol pokračovať rovnakým spôsobom ukladania komponentov do databázy.
 \\\textit{Riešenie:}\\
-Ďalšia časť spočívala v naštudovaní samotného fungovania zobrazovania RSS zdroja. RSS feed je v podstate pravidelne upravovaný XML súbor, ktorý je možné stiahnúť z nejakého servera. V samotnom XML dokumente môžeme nájsť RSS verziu (V súčasnosti sa používa verzia 2.0 ) Dokument pozostáva z niekoľkých ďalších uzlov ako <title> , <description>, <link>
+Ďalšia časť spočívala v naštudovaní samotného fungovania zobrazovania RSS zdroja. RSS feed je v podstate pravidelne upravovaný XML súbor, ktorý je možné stiahnúť z nejakého servera. V samotnom XML dokumente môžeme nájsť RSS verziu (V súčasnosti sa používa verzia 2.0 ) Dokument pozostáva z niekoľkých ďalších uzlov ako \lstset{language=XML}
+\lstinline!<title> , <description>, <link>!. Posielanie dotazu na RSS zdroj priamo z javascriptovej funkcie nebolo možne kvôli cross origin právam -t eda posielanie  dotazov na inú deménu. To som obišiel vypnutím v súbore web.config. V javascripte sa už iba dotazujem na funkciu z kontrolleru, ktorá  už dokáže pristupovať aj k veciam  na inej doméne. Na editáciu som puužil jQuery UI dialóg, ktorý používame v celom projekte. Do editora som sa rozhodol vložiť polia na URL adresu zdroja a niekoľko checkboxov. Tieto checkboxy dokážu napríklad skryť jednotlivé  uzly,  pohybovať text, skryť hlavičky uzlov. Ďalej som pridal polia na limit uzlov items, keďze niektoré zdroje môžu obsahovať veľmi veľa týchto uzlov aj keď užívateš potrebuje napríklad prvé 3 uzly. Nakoniec editora som pridal textové pole na zadanie onbovovacieho intervalu v minútach. Tento údaj vyjadruje, v akom inteervale bude vykonaný dotaz na náš RSS zdroj. Pre zadanie číselných údajov som sa rozhodol použiť jeden z nových atribútov  v HTML5 pre elimináciu zadania písmen a iných znakov:
+\begin{center}
+\lstset{language=HTML5}
+\lstinline!<input type="number" value="0" id="refreshRSS@{compId}">!\\
+\end{center}
+V ukážke je použitá aj Razor syntax. Razor je  akási nadstavba pre ASP.NET , pomocou ktorej je možné upravovať HTML stránky pomocou syntaxe z C\#. V Razore  sa môžu použiť cykly, podmienky, modely, ale aj rôzne iné veci, ktoré potrebujeme. V tomto prípade je potrebné jednoznačne identifikovať, pre ktorý RSS komponent robíme úpravy. Identifikátor komponentu je uložený v premennej \textsf{@\{compId\}}.\\
+Po prijatí RSS feedu ostávalo prejsť všetky uzly v dokumente a podľa parametrov v editore  zobraziť potrebné údaje. Na prechádzanie  XML štruktúry som sa rozhodol použiť zabudovaný nástroj jQuery, kde pomocou funkcie 
+\lstset{language=Javascript}
+\lstinline!jQuery.parseXML(data)!
+vieme previesť  do štruktúry, kde môžeme jednoducho  dostať potrebné uzly, ich dáta, prípadne atribúty. Na záver už pstávalo iba skontrolovať inerval dotazovania a doladiť zobrazovanie  dát.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{RSS}
+    \caption{Ukážka editora(Dole) a RSS obsahu (Hore)}
+    \label{fig:mesh1}
+\end{figure}
+
 \subsection*{Pridanie užívateľských rolí}
 \textit{Zadanie:}\\
 Upraviť bezpečnosť chodu aplikácie pridaním užívateľských rolí a overiť ich funkčnosť.
@@ -234,8 +312,39 @@ Upraviť bezpečnosť chodu aplikácie pridaním užívateľských rolí a overi
 \item \textbf{Bežný používateľ} - nemá možnosť pridať/editovať/vymazať panel, nemá možnosť pridať/editovať/vymazať stránku, nemá prístup k nastaveniam, nemôže manipulovať s časovou osou.
 \end{enumerate}
 \textit{Analýza}\\
-V prvej časti budeme musieť upraviť tabuľku \textsf{users} a pridať do nej stĺpec, ktorý nám bude vyjadrovať konkrétnu užívateľskú rolu. V ďalšej časti 
+Táto požiadavka prišla od zákazníka, ktorý chcel takýmto spôsobom zvýšiť bezpečnosť chdu aplíkácie.
+V prvej časti budeme musieť upraviť tabuľku \textsf{users} a pridať do nej stĺpec, ktorý nám bude vyjadrovať konkrétnu užívateľskú rolu. V ďalšej časti, bude potrebné prejsť všetky stránky a kontrollery a upraviť ich podľa zadania. 
 \textit{Riešenie}\\
+Postup je rozdelený do viacerých krokov. V prvom kroku budeme musieť upraviť DB model v kóde aj  pridať stĺpec do databázy. V projekte je použitý ORM nástroj Entity framework s Model first prístupom. Ten spočíva z modelovacieho nástroja, v ktorom je možné vizuálne pridávať entity , relácie a relácie medzi nimi. Tieto zmeny je následné nutné rozdielovým skriptom spustiť nad databázou. Na začiatok som sa rozhodol do projektu pridať číselník \textsf{UserRoles} , ktorý bude obsahovať  názvy rolí s číslom. Ďalej som si v modeli našiel tabuľku Users, ktorá mala niekoľko stĺpcov.  ku nim som pridal stĺpec \textsf{UserRole} s typom \textsf{Int32}. Aj napriek tomu, že v databáze je rola uložená ako číslo, Entity framework ju dokáže namapovať priamo do vytvoreného číselníka. V ďalšom kroku bolo potrebné vytvoriť rozdielový skript, ktorým zmeny premietneme do databázy.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{adduserrole}
+    \caption{Rozdielový SQL skript}
+    \label{fig:mesh1}
+\end{figure}
+
+V tomto prípade sme zo všetkých uživateľov spravili administratorov. Postupne sme prešli jednotlivé záznamy a upravili skupinu podľa konkrétnych užívateľov. Pri vytvárani nových užívateľov má administrátor odteraz možnosť zvoliť skupinu novému užívateľovi.\\ Ďalšou časťou bolo prejsť všetky stránky a upraviť  niektoré časti kódu podľa skupiny prihláseného užívateľa. Mojim riešením bolo do každého modelu, ktorý sa vytvára v kontroleri a zobrazuje na stránke, pridať ďalšiu premennú, ktorú naplním užívateľovou skupinou. Tu dokážem zistiť vytiahnutím aktuálne prihláseného uživateľa z DBContextu, čo je brána, ktorá slúží na prístup a prácu s databázou. Na jednotlivých sránkach pomocou napneného modelu  a razora vieme definovať , čo sa má ktorému užívatešovi zobrazovať a čo nie. Operácie ako upravovanie a mazanie môže robiť iba administrátor, v našom prípade užívateľská rola 1. 
+\lstset{language=HTML5}
+\begin{lstlisting}
+<div class="buttonsPanel">
+    @if(model.userRole == 1) {
+    <div class="editedButtons">
+        <img class="edit" src="@Url.Content(" ~/Content/Images/edit.png ")"
+         onclick="boardmanage('@(b.Id)')" title="@Locale.GetLocaleString("
+            edit ")" />
+
+        <img class="delete" src="@Url.Content(" ~/Content/Images/remove.png ")"
+         onclick="deleteBoard(@(b.Id))" title="@Locale.GetLocaleString("
+            delete ")"/>
+    </div>
+    }
+</div>\end{lstlisting}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.001\textwidth]{empty}
+    \caption{Zobrazenie operácii pre administrátora}
+    \label{fig:mesh1}
+\end{figure}
 \subsection*{Import udalosti do databázy}
 \textit{Zadanie:}\\
 Pridať možnosť importu udalostí priamo do databázy z xlsx súboru. Pridať  chybové hlásenia pri  nesprávnom formáte dokumentu a informovať používateľa o výsledku importu

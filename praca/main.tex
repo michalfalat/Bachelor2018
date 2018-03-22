@@ -101,7 +101,8 @@
 \def\program{ Informatika }
 \def\mfpracovisko{ Katedra informatiky }
 \def\mftyp{bakalarka }
-
+\renewcommand{\lstlistingname}{Výpis}
+\renewcommand{\lstlistlistingname}{Zoznam výpisov zdrojového kódu}
 \begin{document}  
 
 
@@ -156,12 +157,16 @@ Fakulta elektrotechniky a informatiky
 \eject % EOP i
 \setcounter{page}{3}
 \newpage 
+\vspace*{\fill}
+Prehlasujem, že som túto bakalársku prácu vypracoval samostatne. Uviedol som všetky literárne pramene a publikácie, z ktorých som čerpal.\\\\\\
+V Ostrave 25. apríla \hfill .........................................
 
-
+\newpage 
 \setcounter{page}{4}
 
 \vfill
 {\bf Poďakovanie:} Chcel by som poďakovať svojim kolegom  z práce, ktorí si na mňa našli čas a boli ochotni mi pomôcť a vysvetliť akýkoľvek problém. Poďakovanie patri aj môjmu konzultantovi, Borisovi, ktorý mi zastrešil odbornú prax a venoval mi aj svoj voľný čas.
+
 
 % --- Koniec poďakovania
 
@@ -172,7 +177,7 @@ Fakulta elektrotechniky a informatiky
 \section*{Abstrakt}
 
 
-Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme. V prvej časti  sa  v krátkosti   vysvetľuje činnosť a  zameranie firmy M2M Solutions s.r.o, v ktorej som   vykonával prax. Ďalšia  časť je venovaná samotným projektom a  zadaniam  spolu s riešeniami, na ktorých som pracoval. V závere práce popisujem   celkový súhrn  a využitie  znalostí  nadobudnutých počas školy a technológie, ktoré  som sa musel individuálne doučiť.
+Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme M2M Solutions. V prvej časti je v krátkosti   vysvetlená činnosť a hlavné zameranie firmy, ale aj moje pracovné zaradenie. V ďalšej kapitole  v krátkosti popisujem  hlavné technológie, s ktorými som sa počas praxe najviac stretával. Ďalšia  kapitola je venovaná samotným projektom a zadaným úlohám,  spolu s riešeniami, na ktorých som  počas obidvoch semestrov pracoval. Pomedzi úlohy  sú v rýchlosti vysvetlené aj konkrétne  časti technologii ale  problematika, ktorú riešia. V závere práce popisujem  celkový súhrn  a využitie  znalostí  nadobudnutých počas školy a technológie, ktoré  som sa musel individuálne doučiť.
 
 
 
@@ -182,7 +187,7 @@ Táto bakalárska práca popisuje absolvovanie odbornej praxe vo firme. V prvej 
 \paragraph*{}
 
 \section*{Abstract}
-This bachelor thesis describes my individual practise in company. In first section I explain the company  M2M Solutions s.r.o,its activities and products. Next section is dedicated to tasks and solutions, which I work on. Finally I explain sumary of practise and usage of technologies, that a learn during school and technologies which I have to learn on my own.
+This bachelor thesis describes my individual practise in company M2M Solutions. In the first section I explain the company's  activities and main focus. In the next section I describe basic theory about technologies, which I most used. Next section is dedicated to projects and tasks with solutions, which I work on during practise. Between tasks are briefly explained  parts of technologies, which  I used and problematics, which they deal with. Finally, I explain total summary of practise and usage of technologies, that a learnt during school and technologies which I have to learn on my own.
 
 
 \paragraph*{Keywords:}  ASP.NET, Java, Angular, Typescript, MVC
@@ -214,13 +219,18 @@ This bachelor thesis describes my individual practise in company. In first secti
 API  & - &  application programming interface &  &  \\
 ASP&- &Active Server Pages  &  &  \\
 HTML & - &  Hypertext Markup Language&  &  \\
+IIoT   & - & Industrial Internet of Things  &  &  \\
 JS   & - & Javascript  &  &  \\
 JSON & - & Javascript object notation &  &  \\
 MVC  & - &  Model View Controller &  &  \\
 NF & - &  Normálna forma &  &  \\
+ORM & - &  Object Relational Mapping &  &  \\
+REST & - & Representational state transfer&  &  \\
 RSS & - &  Rich Site Summary &  &  \\
 SQL  & - &  Structured Query Language&  &  \\
 SPA  & - &  Single Page application&  &  \\
+UI  & - &  User interface &  &  \\
+UX  & - &  User experience &  &  \\
 XML  & - &  eXtensible Markup Language &  &  \\
  &  &  &  &  \\
  &  &  &  & 
@@ -237,6 +247,8 @@ XML  & - &  eXtensible Markup Language &  &  \\
 \listoftables
 \addcontentsline{toc}{chapter}{\listtablename}
 
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{\lstlistlistingname}
 % ---  Koniec Zoznamov
 
 
@@ -256,12 +268,16 @@ LightNet TK je webová aplikácia (Tenký klient), ktorá slúži na zobrazovani
 \item Webový klient - SPA aplikácia, ktorá komunikuje s API. Je napísaná v Typescripte s použitím framweorku Angular
 \end{itemize} 
 
-\section{.NET platforma M2Ms}
+\section{Správa evidencie operátorov - OAC}
+Projekt je postavený na novej platforme ASP.NET C\#. Jeho ú
 .NET platforma M2Ms - Tvorí jadro, ktoré je použité v každom projekte .NET. Jej vývoj začal v máji 2017 a v súčasnosti sa  M2Ms .NET platforma je komponentovo orientovaná a propietárne vyvintá .NET tímom  vo  firme M2M solutions. Je v poradí 3. platforma Narozdiel od minulých verzii, ktoré fungovali na ASP WebForms, nová platforma beží na MVC5,
 %M2Ms IoT - je pomerne malá časť rozsiahleho projektu, ktorý vynikol na základe požiadavky pre použitie IoT vo výrobnej hale. Jedná sa o android mobilnú aplikáciu, ktorá slúži ako kontroler medzi bezdrôtovými tlačidlami zn. Flic\cite{flic} a webovým rozhraním, ktoré zachytáva jednotlivé udalosti a robí ďalšiu business logiku. Každá udalosť vyvolaná tlačidlom, je vložená do fronty v mobilnom zariadení(SQL Lite databáza)  a následne poslaná na rozhranie. V prípade neúspešného odoslania ( napr. výpadok siete, nedostupnosť serveru a pod. )   je možné zadefinovať interval pre  opätovný pokus odoslať všetky neúspešné udalosti z fronty na rozhranie.
 
+\section{Ostatné projekty}
+Počas praxe som bol zapojený aj do iných projektov, ktoré sa týkali IIoT riešení. Medzi ne patrilo vytvorenie android aplikácie na kominikáciu s wireless tlačidlom cez bluetooth. Ďalšou veľkou akvizíciou, na ktorej som pracoval, bola navigácia a lokalizíácia objektov v budovách. Prácu na týchto projektoch som sa rozhodol v tejto práci bližšie nepopisovať, nakoľko sú to veci, ktoré sú stále v štádiu návrhu a experimentovania rôznych technológii.
+
 \chapter{Použité technológie}
-V tejto sekcii v krátkosti zhrniem základné informácie o technológiach, s ktorými som sa počas odbornej praxe stretol a aktívne využíval. Okrem týchto  technológii som samozrejme používal radu ďalších, ale v menšej miere.
+V tejto sekcii v krátkosti zhrniem základné informácie o technológiach, s ktorými som sa počas odbornej praxe najviac stretával a aktívne využíval. Okrem týchto  technológii som samozrejme používal veľa ďalších, ale v podstatne menšej miere.
 
 \section{.NET Framework}
 
@@ -277,7 +293,7 @@ GIT\cite{git} je distribuovaný systém na správu verzií. Bol vytvorený Linus
 \chapter{Zadané úlohy a riešenia}
 \section{Multimediálne informačné panely}
 Na tomto projekte som pracoval  priebežne počas  obidvoch semestrov. Jednalo sa najmä o  odstraňovanie existujúcich chýb nahlásených zákazníkmi (Bugfixing), ale aj o vytváranie ďalších komponentov a úpravu podľa požiadaviek. Práca na tomto projekte pozostávala z 3 väčších úloh  a  niekoľkých menších úloh(upravenie niektorých prvkov na stránke, zmeniť umiestnenie tlačidiel, preklad užívateľského manuálu do anglického jazyka a podobne)
-\subsection*{Komponent RSS čítačka}
+\subsection{Komponent RSS čítačka}
 \textit{Zadanie:}\\
 Pridať do projektu  komponent na zobrazenie obsahu z ľubovolného RSS zdroja a vytvoriť formulár na jeho editáciu.
 \\\textit{Analýza:}\\
@@ -299,11 +315,11 @@ vieme previesť  do štruktúry, kde môžeme jednoducho  dostať potrebné uzly
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.85\textwidth]{RSS}
-    \caption{Ukážka editora(Dole) a RSS obsahu (Hore)}
+    \caption{Ukážka editora a RSS obsahu}
     \label{fig:mesh1}
 \end{figure}
 
-\subsection*{Pridanie užívateľských rolí}
+\subsection{Pridanie užívateľských rolí}
 \textit{Zadanie:}\\
 Upraviť bezpečnosť chodu aplikácie pridaním užívateľských rolí a overiť ich funkčnosť.
 \begin{enumerate}
@@ -316,35 +332,28 @@ Táto požiadavka prišla od zákazníka, ktorý chcel takýmto spôsobom zvýš
 V prvej časti budeme musieť upraviť tabuľku \textsf{users} a pridať do nej stĺpec, ktorý nám bude vyjadrovať konkrétnu užívateľskú rolu. V ďalšej časti, bude potrebné prejsť všetky stránky a kontrollery a upraviť ich podľa zadania. 
 \textit{Riešenie}\\
 Postup je rozdelený do viacerých krokov. V prvom kroku budeme musieť upraviť DB model v kóde aj  pridať stĺpec do databázy. V projekte je použitý ORM nástroj Entity framework s Model first prístupom. Ten spočíva z modelovacieho nástroja, v ktorom je možné vizuálne pridávať entity , relácie a relácie medzi nimi. Tieto zmeny je následné nutné rozdielovým skriptom spustiť nad databázou. Na začiatok som sa rozhodol do projektu pridať číselník \textsf{UserRoles} , ktorý bude obsahovať  názvy rolí s číslom. Ďalej som si v modeli našiel tabuľku Users, ktorá mala niekoľko stĺpcov.  ku nim som pridal stĺpec \textsf{UserRole} s typom \textsf{Int32}. Aj napriek tomu, že v databáze je rola uložená ako číslo, Entity framework ju dokáže namapovať priamo do vytvoreného číselníka. V ďalšom kroku bolo potrebné vytvoriť rozdielový skript, ktorým zmeny premietneme do databázy.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{adduserrole}
-    \caption{Rozdielový SQL skript}
-    \label{fig:mesh1}
-\end{figure}
+\lstset{language=sql}
+\begin{lstlisting}[caption=SQL skript pre pridanie užívateľelskej role,captionpos=b]
+			ALTER TABLE [dbo.Users]
+			ADD UserRole int NOT NULL DEFAULT(1)
+			GO
+\end{lstlisting}
 
-V tomto prípade sme zo všetkých uživateľov spravili administratorov. Postupne sme prešli jednotlivé záznamy a upravili skupinu podľa konkrétnych užívateľov. Pri vytvárani nových užívateľov má administrátor odteraz možnosť zvoliť skupinu novému užívateľovi.\\ Ďalšou časťou bolo prejsť všetky stránky a upraviť  niektoré časti kódu podľa skupiny prihláseného užívateľa. Mojim riešením bolo do každého modelu, ktorý sa vytvára v kontroleri a zobrazuje na stránke, pridať ďalšiu premennú, ktorú naplním užívateľovou skupinou. Tu dokážem zistiť vytiahnutím aktuálne prihláseného uživateľa z DBContextu, čo je brána, ktorá slúží na prístup a prácu s databázou. Na jednotlivých sránkach pomocou napneného modelu  a razora vieme definovať , čo sa má ktorému užívatešovi zobrazovať a čo nie. Operácie ako upravovanie a mazanie môže robiť iba administrátor, v našom prípade užívateľská rola 1. 
+V tomto prípade sme zo všetkých uživateľov spravili administrátorov. Postupne som prešiel jednotlivé záznamy v databáze a upravil skupinu podľa konkrétnych užívateľov. Pri vytvárani nových užívateľov má administrátor odteraz možnosť zvoliť skupinu novému užívateľovi.\\ Ďalšou časťou bolo prejsť všetky stránky a upraviť  niektoré časti kódu podľa skupiny prihláseného užívateľa. Mojim riešením bolo do každého modelu, ktorý sa vytvára v kontroleri a zobrazuje na stránke, pridať ďalšiu premennú, ktorú naplním užívateľovou skupinou. Tú dokážem zistiť vytiahnutím aktuálne prihláseného uživateľa z DBContextu. DBContext je brána, ktorá slúží na prístup a prácu s databázou. Na jednotlivých sránkach pomocou naplneného modelu  a razora vieme definovať , čo sa má ktorému užívateľovi zobrazovať a čo nie. Operácie ako upravovanie a vymazávanie môže robiť iba administrátor, v našom prípade užívateľská rola 1. 
 \lstset{language=HTML5}
-\begin{lstlisting}
+\begin{lstlisting}[caption=Zobrazenie operácii pre administrátora,captionpos=b]
 <div class="buttonsPanel">
     @if(model.userRole == 1) {
     <div class="editedButtons">
-        <img class="edit" src="@Url.Content(" ~/Content/Images/edit.png ")"
-         onclick="boardmanage('@(b.Id)')" title="@Locale.GetLocaleString("
-            edit ")" />
-
-        <img class="delete" src="@Url.Content(" ~/Content/Images/remove.png ")"
-         onclick="deleteBoard(@(b.Id))" title="@Locale.GetLocaleString("
-            delete ")"/>
+        <img class="edit" src="@Url.Content("~/Content/Images/edit.png ")"
+        onclick="boardmanage('@(b.Id)')" title="@Locale.GetLocaleString("edit")" />
+        
+        <img class="delete" src="@Url.Content("~/Content/Images/remove.png")"
+         onclick="deleteBoard(@(b.Id))" title="@Locale.GetLocaleString("delete")"/>
     </div>
     }
-</div>\end{lstlisting}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.001\textwidth]{empty}
-    \caption{Zobrazenie operácii pre administrátora}
-    \label{fig:mesh1}
-\end{figure}
+</div>
+\end{lstlisting}
 \subsection*{Import udalosti do databázy}
 \textit{Zadanie:}\\
 Pridať možnosť importu udalostí priamo do databázy z xlsx súboru. Pridať  chybové hlásenia pri  nesprávnom formáte dokumentu a informovať používateľa o výsledku importu
@@ -353,22 +362,86 @@ Pri niektorých zakazníkoch sme sa streli so zaujímavou požiadavkou. Pre rýc
 \\\textit{Riešenie}\\
 \section{LightNet TK}
 Na projekte LightNet TK som pracoval dokopy približne  30 dní. V tejto dobe  je zahrnutých aj 5 dní učenia  sa architektúry použitej vo frameworku Angular. Jednalo sa najmä o konečnú a finálnu úpravu produktu podľa potrieb zákazníka. Moja práca spočívala v úprave a vytváraní  komponentov napísaných v Typescripte a v malej miere aj práca na API  v jazyku Java s použitím technológie Spring Boot. Vďaka použitiu material design aplikácia vyzerá moderne a prehľadne.
-\subsection*{Pridanie šablón pre merania na rozvádzačoch }
+\subsection{Pridanie šablón pre merania na rozvádzačoch }
 \textit{Zadanie:}\\
 Pridať do projektu grafy  z meraní. Pridať možnosť zobraziť/schovať jednotlivé inštancie  z meraní. Konečný stav môže užívateľ uložiť ako šablónu.
 \\\textit{Analýza:}\\
- Nakoľko sa na tejto stránke nachádzajú 4 grafy  a vysoký počet inštancii v samotných grafoch, je pre úžívateľa pomerne zložité sa v tom rýchlo zorientovať. 
-Šablóna bude uľahčovať zobrazenie grafov , ale najmä zprehľadní celú stránku od  údajov, ktoré užívateľ nepotrebuje. Táto úloha sa bude riešiť v prezenčnej vrstve - zobrazenie uživateľovi, tlačidlo na pridanie a výber šablóny . Ukladanie jednotlivých šablón bude prebiehať  na serveri, do Postre SQL databázy.
+Na stránke meraní sa nachádzajú 4 grafy  a vysoký počet inštancii v samotných grafoch,čo  je pre bežného úžívateľa pomerne zložité na rýchlu orientáciu. 
+Šablóna bude uľahčovať zobrazenie grafov , ale najmä zprehľadní celú stránku od  údajov, ktoré užívateľ nepotrebuje. Táto úloha sa bude riešiť v prezenčnej vrstve - zobrazenie uživateľovi, tlačidlo na pridanie a výber šablóny . Ukladanie jednotlivých šablón bude prebiehať  na serveri, do Postgre SQL databázy.
 \\\textit{Riešenie:}\\
-Prvým krokom bolo vymyslieť rozmiestnenie jednotlivých  tlačidiel na stránke a realizovať samotný výber šablón. To som realizoval pomocou klasického dropdown listu. V angulare môžeme tento  prvok nájsť pod názvom \textsf{<mat-select>}. V dropdowne budu zobrazené šablóny stiahnuté zo servera. Pre obmedzené miesto vo widgete grafov som sa rozhodol umiestniť tlačidlona pridanie šablóny priamo do dropdown listu. Po výbere tejto možnosti sa zobrazí dialóg pre zadanie názvu šablóny. Tento dialog je realizovaný ako samotný komponent s názvom  \textsf{MatDialog}. Po zadaní názvu sa kontroluje, či užívateľ nezadal nebezpečné symboly ako úvodzovky, pomlčký, medzeru  a podobne. V  tomto zozname tiež bude možnosť pre všetky grafy a inštancie bez možnosti editácie. To je vhodné vtedy, ak úžívateľ chce mať pri vstupe na stránku zobrazené všetky údaje. 
-\subsection*{Lokalizácia SK/EN}
+\textbf{Klientská časť}\\
+Prvým krokom bolo vymyslieť rozmiestnenie jednotlivých  tlačidiel na stránke a realizovať samotný výber šablón. To som realizoval pomocou klasického dropdown listu. V angulare môžeme tento  prvok nájsť pod názvom \lstset{language=HTML5}
+\lstinline!<mat-select>!. V dropdowne budu zobrazené šablóny stiahnuté zo servera. Pre obmedzené miesto vo widgete grafov som sa rozhodol umiestniť tlačidlo na pridanie šablóny priamo do dropdown listu. Po výbere tejto možnosti sa zobrazí dialóg pre zadanie názvu šablóny. Tento dialog je realizovaný ako samotný komponent s názvom \lstset{language=HTML5}
+\lstinline!MatDialog!. Po zadaní názvu sa kontroluje, či užívateľ nezadal nebezpečné symboly ako úvodzovky, pomlčky, medzeru  a podobne. V  tomto zozname tiež bude možnosť zobraziť všetky grafy a inštancie bez možnosti editácie. To je vhodné vtedy, ak úžívateľ chce mať pri vstupe na stránku zobrazené všetky údaje.  Na grafy a zobrazenie časovej osi som použil framework vis.js, ktorý podporuje rôzne druhy grafov. Medzi ďalšie dôvody patrili, že je zadarmo , jednoducho sa s ním pracuje a má rozsiahlu dokumentáciu.  Ešte pred načítaním grafov sa  najskôr zo servera načítajú všetky šablóny aktuálneho užívateľa. V Databáze je uložená aj informácia, ktorú šablónu má užívateľ predvolenú. Vďaka tomu sa zobrazia iba grafy a inštancie, ktoré užívateľ zvolil. Pri zmene  šablóny je znovu potrebné načítať dáta do grafov. a uvolniť pamäť od nepotrebných dát. Takisto bolo potrebné detekovať vypnutie nejakej inštancie grafu. Na obidve tieto udalosti som si si implementoval eventlistner, ktorý je zabudovaný v Angulari. Vďaka tomu je možné pri zmene zavolať ľubovolnú metódu. 
+\lstset{language=HTML5}
+\begin{lstlisting}[showstringspaces=false,caption=Dropdown pre zvolenie šablóny s využitím Two-way databinding,captionpos=b]
+ <mat-select placeholder="{{"measurement_filter" | translate}}"
+  [@SelectTemplateAnimation]='selectTemplateState' (change)="templateChanged()"
+  [(ngModel)]="selectedTemplate" name="template" class="select-group-dropdown">
+           <mat-option *ngFor="let template of templates " [value]="template">               
+           </mat-option>
+ </mat-select>
+\end{lstlisting}
+
+V ukážke 5.4 možete vidieť použíté viaceré nástroje Angularu, ktoré som počas  vývoja používal.
+\begin{enumerate}
+\item \textbf{Two-way databinding}: S touto možnosťou je možné previazať model z triedy priamo do HTML kódu. Ako názov napovedá zmeny sú obojsmerne premietnuté z HTML do modelu a naopak. V našej ukážke ho využívame v \lstset{language=HTML5}
+\lstinline! [(ngModel)]="selectedTemplate"! Premenná selectedTemplate obsahuje pole objektov, ktoré sa skladajú z ID a názvu šablóny.
+\item \textbf{Event binding} Vďaka event bindingu vieme pri  udalosti v HTML elemente zavolať metódu v triede komponentu. V našom prípade som sa rozhodol pri zmene šablóny (udalosť \lstinline![(change)]!) zavolať metódu \lstset{language=Javascript}
+\lstinline!templateChanged()!,  ktorá inicializuje grafy  a inštancie, ktoré su zadefinované v šablóne.
+\item \textbf{String interpolation} Tento nástroj umožnuje premietnuť  veci z triedy komponentu do klasického textu. Je možné takto  vypísať napríklad hodnotu premennej alebo rôzny iný text. V našej ukážke \lstset{language=Javascript}
+\lstinline
+[showstringspaces=false]!placeholder="{{"measurement_filter" | translate}}")! využívame String interpolation na nastavenie našeptávacieho textu. Je tu tiež použitý  tzv. piping (\textbf{|}), ktorý sa používa na ďalšiu modifikáciu textu. Napríklad zaokrúhlenie čísiel, formát dátumu, zmena textu na veľké/malé písmena a podobne. V tomto prípade  som piping použil na preklad textu, o ktorom bližšie popisujem v ďalšej kapitole.
+\end{enumerate}
+\textbf{Serverová časť}\\
+Pri zmenách šablón bolo potrebné tieto zmeny uložiť aj do databázy. Komunákácia so serverom  prebieha  pomocou REST API. Serverová časť je napísaná v Jave technlógiou Spring boot s použitím MVC architekrúry. Vďaka tomu ostávalo  iba implementovať model a kontroler, na ktorý sa budem z klientskej časti dotazovať.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{graphs}
+    \caption{Výsledná stránka meraní }
+    \label{fig:mesh1}
+\end{figure}
+
+\subsection{Lokalizácia SK/EN}
 \textit{Zadanie:}\\
 Lokalizovať aplikáciu do SK/EN jazyka s možnosťou výberu jazyka.
 \\\textit{Analýza:}\\
-Hlavnou myšlienkou lokalizácie bolo určiť, či sa bude vykonávať na serveri, alebo na strane klienta.
+Jednou z  úloh  lokalizácie bolo určiť, či sa bude vykonávať na serveri, alebo na strane klienta. Z dostupných riešení lokalizácie v rámci technoógii Spring boot a Angular  som sa rozhodol riešiť jazykovú lokalizáciu na strane klienta, v javascripte pomocou knižnice \textit{I18n}\cite{i18n}
 \\\textit{Riešenie:}\\
-a
-\subsection*{Pridanie kontaktného formuláru }
+Použitie knižnice \textit{I18n} vo framweorku angular je pomerne jednoduché. Pomocou npm si najprv nainštalujeme do projektu knižnicu.
+\begin{center}
+\begin{tabular}{c}
+\lstset{language=HTML5}
+\begin{lstlisting}[showstringspaces=false]
+npm install i18n --save
+\end{lstlisting}
+\end{tabular}
+\end{center}
+Po inštalácii knižnice a  prečítaní dokumentácie  bolo  potrebné vytvoriť súbory, ktoré budú obsahovať preložené reťazce vo formáte "kľúč": "hodnota". Tieto súbory sa  musia volať podľa skratky jazyka. V mojom prípade som si v koreňovom adresári projektu vytvoril súbor \textit{sk.json} a \textit{en.json} V ďalšom kroku  bolo úlohou nájsť všetky reťazce pridať ich do  týchto súborov  aj  s preloženou hodnotou. Aby knižnica vedela, ktoré  veci sa majú prekladať je  použitý tzy. piping , s ktorým je možné meniť a upravovať textové hodnoty v HTML kóde.
+\lstset{language=HTML5}
+\begin{lstlisting}[showstringspaces=false,caption= String interpolation s použitím popingu na preklad,captionpos=b]
+		  {{"EmailIsNotInCorrectFormat" | translate}}"
+\end{lstlisting}
+Knižnica sa štandardne snaží použiť jazyk, ktorý je nastavený v prehliadači. Ak sa taký jazyk  medzi vytvorenými súbormi nenachádza, ostáva ponechaná pôvodný nepreložený kľúč. Toto správanie knižnice  nevyhovovalo z viacerých dôvodov. Ku aplikácii často pristupujú aj ľudia z iných štátov a mohlo by sa ľahko stať, že sa aplikácia vôbec nepreloží, pretože neexistuje ekvivalentná jazyková verzia. Ja som sa rozhodol  nastaviť predvolený anglický jazyk a až potom podľa jazyka prehliadača  nastaviť  prípadne slovenský jazyk. Kedže knižnica je implementovaá v angulari ako služba, bolo jednoduché k nej prístúpiť v konštruktore koreňového komponentu a nastaviť jazyk. V konštruktore bolo  tiež potrbné registrovať jazykove verzie pomocou funkcie\lstset{language=JavaScript}
+\lstinline!addLangs()! , ktorá berie ako parameter pole názvov jazykových verzii.
+\begin{center}
+\begin{tabular}{c}
+\lstset{language=JavaScript}
+\begin{lstlisting}[showstringspaces=false, caption=Konštruktor  aplikácie,captionpos=b]
+constructor( private translateSevice: TranslateService ) {
+    console.log("App created");
+	
+    this.translateSevice.addLangs(['en', 'sk']);
+    this.translateSevice.setDefaultLang('en');
+	
+    let browserLang = this.translateSevice.getBrowserLang();
+    this.translateSevice.use(browserLang.match(/en|sk/) ? browserLang : 'en');
+}
+\end{lstlisting}
+\end{tabular}
+\end{center}
+Osobitnou kapitolou bola sránka alarmov. Alarmy predstavujú  rôzne chyby, ktoré nastali pri manipulácii s osvetlením. Každý alarm má svoj chybový kód a  chybovú správu uloženú v databáze. Úlohou bolo  pridať stĺpec ku tabuľke alarmov  s chybovou  správou v anglickom jazyku.
+\subsection{Pridanie kontaktného formuláru }
 \textit{Zadanie:}\\
 Pridať komponent pre kontaktný formulár. Vytvoriť emailové konto a správne ho nakonfigurovať v aplikácii.
 \\\textit{Analýza:}\\
@@ -377,40 +450,176 @@ Táto úloha sa dala rozdeliť zase do 2 samostatných úloh. Jednalo sa o vytvo
 Samostatný formulár sa skladá zo 6 polí(Meno odosielateľa,Spoločnosť, Adresa, Telefón, Email a Text správy) Tieto polia boli vyžiadané zakazníkom  pričom povinne vyplnené polia musia byť Meno, Email a Text správy. V angulári som si vytvoril triedu [meno], ktorá obsahovala všetky polia formuláru. Anglular obsahuje aj knižnice a mechanizmy na prácu s formulármi a ich validaciu Túto knižnicu some si museli naimportovať z  \textsf{cesta///}. Pomocou two-way databinding som načítal dáta  do inštancie tejto triedy. Potrebné validácie a pravidlá sa dajú riešiť dvomi spôsobmi. 
 \begin{enumerate}
 \item\textbf{Template-driven validácia} Do HTML časti  sa integrujú  atributy pre validáciu vstupov napr.: \textsf{required, minlenght, maxlenght}. Takýmto spôsobom  je niej možné formulár validovať dynamicky, čo v našom prípade ani nepotrebujeme.
-\item\textbf{Reactive form validácia} Pod týmto názvom sa skrýva komplexnejšia  validácia v angular aplikáciách. Validácia sa vytvára priamo v triede komponentu pomocou funkcii.  Toto je vhodné, ak chceme validovať nejaké polia dynamicky, napríklad kontrolovať, či sa zadaná emailová adresa  už nieje použitá bez odoslania formuláru.
- V našom  prípade som sa rozhodol použiť Template-driven validáciu nakoľko postačuje pre náš kontaktný formulár. 
-
+\item\textbf{Reactive form validácia} Pod týmto názvom sa skrýva komplexnejšia  validácia v angular aplikáciách. Validácia sa vytvára priamo v triede komponentu pomocou funkcii.  Toto je vhodné, ak chceme validovať nejaké polia dynamicky, napríklad kontrolovať, či  zadaná emailová adresa  už nieje použitá bez odoslania formuláru.
+ V našom  prípade som sa rozhodol použiť Template-driven validáciu nakoľko postačuje pre náš kontaktný formulár. Pri chybe vo validácii   bolo potrebné nastaviť tlačidlo na \textbf{disabled} aby sa predišlo odoslaniu chybného formuláru.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{contact}
+    \caption{Kontaktný formulár s ukážkou validácie }
+    \label{fig:mesh1}
+\end{figure}
 \end{enumerate} 
  Druhou časťou bolo nájsť možnosť, ako posielať správy na email zakazníka. Bolo potrebne vytvoriť prostredníka, ktorý údaje z formuláru prepošle na email.  Ja som sa rozhodol vytvoriť emailovú schránku a nakonfigurovať ju v serverovej časti.
-\subsection*{Optimalizácia pre mobilné zariadenia}
+\subsection{Optimalizácia pre mobilné zariadenia}
 \textit{Zadanie:}\\
 Optimalizovať aplikáciu pre všetky mobilné zariadenia a bežne používané prehliadače.
 \\\textit{Analýza:}\\
 Responzivita webových stránok patrí v roku 2018 už k štandardom a moderný web sa bez nej nezaobíde. Minimálne rozlíšenie, na ktoré som sa rozhodol aplikáciu optimalizovať  bolo na šírku  350px, čo zvládné väčšina súčasných mobilných telefónov.  Samotné rozloženie  informácii z aplikácie je rozdelené to tzv. widgetov čo predstavovalo okno s plávajúcou šírkou podľa obsahu. Ďalšou úlohou bude upraviť  texty aj v hornej lište, pretože obsahuje veľký počet informácii (čas, meno prihláseného užívateľa, výber jazyka, odhlásenie)
 \\\textit{Riešenie:}\\
-Samotnú responzivitu som riešil  úpravou CSS tried pomocou \textsf{@media-query}, čo je funkcia, ktorá sa používa v CSS3. V nej sa zadefinuje pomocou parametrov, či chceme zmeniť triedu keď je rozlíšenie väčšie alebo menšie ako zadané v parametri. Ja som sa rozhodol upravovať triedy pre 3 rôyne rozlíšenia:
+Samotnú responzivitu som riešil  úpravou CSS tried pomocou \textsf{@media-query}, čo je funkcia, ktorá bola pridaná až vo verzii CSS3. V nej sa zadefinuje pomocou parametrov, či chceme zmeniť triedu keď je rozlíšenie väčšie alebo menšie ako zadané v parametri. Ja som sa rozhodol upravovať triedy pre 3 rôzne rozlíšenia:
 \begin{enumerate}
-\item \textbf{350px- ???px} - Rozlíšenie, ktoré je možné nájsť na väčšine mobilných telefónov.
-\item \textbf{???p - ??? px} -  Rozlíšenie, ktoré sa používa na tabletoch, poprípade na mobilných telefónoch otočených horizontálne (na šírku)
-\item \textbf{>??px} -  Rozlíšenie použité na notebokoch a stolových počítačoch. Na tejto sekcii bolo vykonaných najmenej úprav, keďže stránka bola vyvíjaná na notebooku s takýmto rozlíšením.
+\item \textbf{350px - 600px} - Rozlíšenie, ktoré je možné nájsť na väčšine mobilných telefónov.
+\item \textbf{601px - 960px} -  Rozlíšenie, ktoré sa používa na tabletoch, poprípade na mobilných telefónoch otočených horizontálne (na šírku)
+\item \textbf{960px a viac} -  Rozlíšenie použité na notebokoch a stolových počítačoch. Na tejto sekcii bolo vykonaných najmenej úprav, keďže stránka bola vyvíjaná na notebooku s takýmto rozlíšením.
 \end{enumerate}
-Responzivitu môžeme jednoducho simulovať použitým vývojárskych nástrojov  v google Chrome.  Po 
-\subsection*{Inteligentná lišta }
+Responzivitu môžeme jednoducho simulovať použitým vývojárskych nástrojov  v prehliadači google Chrome. takýmto spôsobom som sa rozhodol používať 3 rôzne rozlíšenia z  definovaných rozsahov. Vo väčšine komponentov bolo potrebné pri malom rozlíšení zmeniť veľkosť z pixelov na hodnotu 100\%. Tým sa dosiahol efekt, že  sú čítatelné všetky texty a nič podstatné nieje skryté. Ďalším krokom bolo  pridať rozbalovacie menu. Pri malom rozlíšení sa stávalo, že údaje , ktoré boli v hornej lište  sa  do širky stránky nezmestili. Rozhodol som sa pridať ďalší kontajner, v ktorom bude zobrazené meno prihláseného používateľa a tlačidlo na odhlásenie. Tomuto  kontajnere som priradil triedu, ktorú  pomocou selektoru nastavujem na \textit{display:none;} alebo \textit{display:block;}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{responseCompare}
+    \caption{Ukážka responzivity. Neoptimalizovaná aplikácia(vľavo) a oprimalizovaná aplikácia (Vpravo) }
+    \label{fig:mesh1}
+\end{figure}
+Takto optimalizovanú aplikáciu som skúšal po nasadení na viacerých telefónoch s viacrými prehliadačmi. Okrem úpravy CSS tried bolo potrebné na mobiloch skryť aj  bočný panel s  odkazmi na mestá a rozvádzače. To som  implementoval v konštruktore hlavného komponenta  aplikácie. Ten sa vždy zavolá pri spustení aplikácie. Keďže bočný panel je komponent tretej strany, obsahuje veľa funkcionality. Jednou z nich bolo aj funkcia \textbf{hide()}. V konštruktore  stačilo detekovať šírku stránky pomocou \textbf{window.width} Ak bola menšia ako  hodnota pre mobilny telefón( V našom prípade 600px) tak stačilo funkciu \textbf{hide()} zavolať nad panelom. 
+\newpage
+\subsection{Inteligentná lišta }
 \textit{Zadanie:}\\
 Pridať navigačnú lištu s tlačidlami a aktualnym časom. Lišta sa po posune stránky nadol skryje a po posune stránky hore sa opäť zobrazí.
 \\\textit{Analýza:}\\
-Inteligentnú lištu môžeme nájsť na takmer každej modernej webovej stránke. Jej úlohou je najmä zväčšiť plochu užitočných informácii na stránke, ale stále mať k dispozicii dôležité odkazy a tlačidlá  bez  zbytočného scrollovania na vrch stránky. Veľž rozdiel je spoznatelný najmä pri prehliadaní stránky na mobilnom zariadení s malým rozlíšením. 
+Inteligentnú lištu môžeme nájsť na takmer každej modernej webovej stránke. Jej úlohou je najmä zväčšiť plochu užitočných informácii na stránke, ale stále mať k dispozicii dôležité odkazy a tlačidlá  bez  zbytočného rolovania na vrch stránky. Veľký rozdiel je spoznatelný najmä pri prehliadaní stránky na mobilnom zariadení s malým rozlíšením. 
 \\\textit{Riešenie:}\\
-Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu html komponentov používam CSS3.Zároveň bolo potrebné detekovať užívateľov pohyb na stránke nahor a nadol pre zobrazenie a skrytie lišty. To som  urobil pomocou registrácie listenera priamo v hlavnom komponente.  Pre krajší efekt a lepší UX  zážitok  som okrem posunu lišty a jej skrytia pridal atribut na zníženie priehľadnosti \textsf{opacity:0}
+Pre túto úlohu bolo potrebné upraviť komponent \textsf{<mat-toolbar>}. Nakoľko originálny komponent neposkytuje možnosť samoschovávania lišty, bolo potrebné ju naimplementovať. Pre úpravu komponentu bolo potrebné vytvoriť triedu v kaskádvom štýle, ktorú komponentu priradím. Zároveň bolo potrebné detekovať užívateľov pohyb na stránke nahor a nadol pre zobrazenie a skrytie lišty. Pohyb  užívateľa na stránke som urobil pomocou registrácie listenera priamo v hlavnom komponente.  Pre krajší efekt a lepší UX  zážitok  som okrem posunu lišty a jej skrytia pridal do triedy  atribut na zníženie priehľadnosti \textsf{opacity:0}. Výsledkom je  lišta, ktorá sa plynulo schová po rolovaní stránky nadol. 
+\lstset{language=JavaScript}
+\begin{lstlisting}[showstringspaces=false, caption= Event na odchytávanie rolovania stránky,captionpos=b]
+export class ScrolllistenerDirective implements AfterViewInit {
+  @Output() scrolledUp: EventEmitter<any> = new EventEmitter();
+  @Output() scrolledDown: EventEmitter<any> = new EventEmitter();
+  public scrollEvent: Subject<any> = new Subject();
 
-\section{Správa operátoro??v}
-xxx je jeden z prvých projektov, ktorý beží na našej novej propietárne vyvinutej platforme, s čím súviselo aj súčasné odlaďovanie chýb na platforme. Jedná sa o ASP.NET webove stránky napísané v jazyku C\#. Ako ORM nástroj  bol použitý Entity framework. Projekt je vyvíjaný podľa architektúry MVC, ktorá oddeluje rôzne vrstvy systému. Súčasne s MVC architekrúrou boli použité aj ďalšie návrhové vzory. Pre oddelenie business logiky od kontrolerov a pre prácu s DB je použitý návrhový vzor \textbf{Repozitár}. V projekte je vytvorený repozitár pre každú entitu  čím  sprehľadnuje celú aplikáciu a sústreduje všetky metody na prístup do databázy na jedno miesto. Ďalší návrhový vzor je \textbf{Unit OF Work}. Ten sa stará o 
+  private currentScroll = 0;
 
+  @HostListener('scroll', ['$event'])
+  onScroll(e) {
+    let el = e.target;
+    let value = e.target.scrollTop;
+    if (value > this.currentScroll) {
+      this.scrolledDown.emit();
+      this.scrollEvent.next("scrolledDown");
+    }
+    else if (value < this.currentScroll) {
+      this.scrolledUp.emit();
+      this.scrollEvent.next("scrolledUp");
+    }
+    this.currentScroll = value;
+
+  }
+\end{lstlisting}
+
+\section{Správa evidencie operátorov - OAC}
+Správa evidencie operátorov - OAC  je jeden z prvých projektov, ktorý beží na novej propietárne vyvinutej platforme. Súčasne so vznikom  novej platformy prebiehalo aj odlaďovanie chýb  a implementácia nových vecí v platforme. Jedná sa o ASP.NET webov0 stránky napísané v jazyku C\#. Ako ORM nástroj  bol použitý Entity framework s prístupom code-first. Vďaka tomu je možné riadiť verziu  databázy pomocou migrácii, ktor0 sa p93u priamo v C\# kóde. Projekt je vyvíjaný podľa architektúry MVC, ktorá oddeluje rôzne vrstvy systému. Súčasne s MVC architekrúrou boli použité aj ďalšie návrhové vzory. 
+
+\subsection{Platforma - Property  comparator}\label{sssec:num1}
+\textit{Zadanie:}\\
+Vytvoriť atribút na porovnávanie property v rámci jedného modelu.
+\\\textit{Analýza:}\\
+Medzi väčšie  úlohy, ktoré  bolo potrebné implementovať na úrovni platformy bolo vytvorenie atributu pre porovnávanie polí vo formulári. Táto úloha nie je  závislá iba na projekte, ale  jej využitie sa môže hodiť aj na iných projektoch, ktoré budú bežať na platforme. V MVC architekrúre sa validácia implementuje priamo v modeli pomocou rôznych atribútov. Napríklad či je pole povinné, alebo nie, minimálna alebo maximálna dĺžka reťazca, alebo číselný rozsah. Pre zníženie záťaže servera je možné zapnúť aj klientskú validáciu, kedy sa formulár overuje priamo v javascripte. Ak formulár nieje  validný, na server sa neodošle a tým pádom ho server nemusí ďalej spracovávať. Validácia  na serveri ale nemôžeme úplne vypnúť, pretože klient  má plnú kontrolu nad kódom v javascripte a po  úprave môže obísť validáciu poslať aj formulár, ktorý nie je validný. V projekte používame teda dvojitú validáciu. Pod zadnaím úlohy sa rozumie vytvoriť atribút, ktorý sa bude správať ako validátor polí. V jeho konštruktore  sa bude prijmať názov druhého poľa, ku ktorému bude porovnávaný a operátor. Takýmto komparátorom je možné napríklad  overovať hodnoty napr. začiatok musí byť menš ako koniec, alebo hodnota v jednom poli musí byť menšia ako v druhom poli a podobne. Súčasne bude potrebné implementovať validáciu aj na strane klienta, aby sa  formulár s nesprávnymi dátami zbytočne neposielal na server.
+\\\textit{Riešenie:}\\
+Na začiatok som si vytvoril triedu, ktorá implmenetuje rozhranie ??? . Nad samotnou triedu je potrebné zadefinovať atribút, aby bolo jasné nad akým typom sa tento vytvorený atribút môže používať. Ja  potrebujem porovnávať iba hodnoty vrámci jednej triedy (modelu)  a preto  som nastavil na triedu atribút [blabl??]. Trieda musí implementovať rozhranie ?? . Všetky triedy rozhrania treba prepísať vlastnou funkcionalitou.  V prvom kroku  treba ytvoriť validáciu na strane servera. V konštruktore atribútu nie je možné dať ako parameter inú propertu. Súčasne so vznikom atribútu však vieme zistiť v ktorej triede sa práve aplikuje. Vieme zistiť jej názov, typ a pristupovať  k jednotlivým propertám. Ja som sa kvôli jednoduchosti rozhodol ako argument poslať reťazec s názvom druhej property.  Pre prípad, keď by sa náhodou premenovala ,  kompilátor by nhlsil žiadnu chybu, pretože ju berie ao reťazec. Toto môžeme vyriešiť náhradou reťazca príkazom  nameof(<druhyfield>) . Tym zarucime, ze aj ked sa  náhodou premenuje , koplikátor nám okamžite podčiarkne chybu, lebo taký názov nepozná. V parametroch bolo potrebné ďalej zadať operátor , pre aký sa ma vyhodnocovať validácia ako správna. To som vyriešiť vytvorením enumu, kde sú základné porovnávacie operácie (<, >, ==, <=, >=). Teraz už vieme , pristupovať k propertám triedy a vieme na základe čoho ich chceme porovnávať. Samotné overovanie  validity modelu sa vykonáva až vo funkcii ??? .  
+\subsection{Implementácia business logiky}
+\textit{Zadanie:}\\
+Implementovať projektovú business logiku na správu pozícií a produkčných modelov.
+\\\textit{Analýza:}\\
+Pre oddelenie business logiky od kontrolerov a pre prácu s databázou je v projekte použitý návrhový vzor \textbf{Repozitár}. V projekte je vytvorený repozitár pre každú entitu, čím  sprehľadnuje celú aplikáciu a sústreduje všetky metódy na prístup do databázy na jedno miesto v rámci entity. Ďalší návrhový vzor je \textbf{Unit OF Work}. Ten sa stará o to, aby každú malú operáciu nebol nutný zásah do databázy. Predstavme si situáciu, keď v jedne sitácii chceme  naríklad  vymazať 50 entít a pridať ďalších 50 v jednej akcii. Unit of work zabezpečuje to, že tieto zmeny sú najskôr uložené  iba v pamäti a až v závere akcie sa tieto zmeny premietnu do databázy funkciou \textit{Commit()}
+\\\textit{Riešenie:}\\
+\subsection{Formulár na pridanie pozície}
+\textit{Zadanie:}\\
+Vytvoriť formulár na pridanie a editáciu pozícii podľa projektovej dokumentácie.
+\\\textit{Analýza:}\\
+Projekt sa z veľkej miery skladá z rôznych formulárov na editáciu a pridávanie  dát do databázy. Jednou z úloh, ktoré mi boli pridelené bolo aj vytvorenie formuláru a pridanie pozície. Pozícia je entita, na ktorá  predstavuje nejaké  fyzické miesto  v hale. Je previazaná s ďalšími entitami: produkčný model a ???. Mojou úlohou bude  vytvoriť model pohľad (view) a  implementovať  metódu v kontroleri, ktorá bude dáta  spracovávať. 
+\\\textit{Riešenie:}\\
+V prvom kroku, som si vytvoril model v priečinku, kde sú ostatné modely projektu. Tento model obsahuje  všetky polia, ktoré sa nachádzajú aj v entite. Nad každé pole je možné zadať rôzne atribúty. V mojom prípade som použil atribúty \textbf{[Required]} , ktorý značí, že pole  musí byť vyplnené nejakou hodnotou a \textbf{[MaxLength(512)]}a \textbf{[MaxLength(64)]} , ktoré značia maximálny počet znakov v textovom reťazci. Okrem štandardných atribútov na validáciu bolo potrebné aj validovať  správnosť IPv4 adresy. Na to som použiil regulárne výrazy, ktoré C\# štandardne podporuje. V tomto modeli sa nachádzali aj dve polia, ktoré bolo potrebné porovnať medzi sebou. Z dokumentácie projektu vyplývalo , že pole \textit{Pracovný čas} musí byť menšie ako pole \textit{Max. pracovný čas}. Na toto sa  dá využiť platoformový property komparátor, na ktorom som pracoval ako na samostatnej úlohe. Bližšie je o ňom  je popísané v časti \ref{sssec:num1}
+\lstset{language=C++}
+\begin{lstlisting}[showstringspaces=false, caption= Časť modelu pozície s validačnými atribútmi,captionpos=b]
+ public class PositionModel
+ {        
+        [RegularExpression(@"^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.)
+        {3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$", 
+        ErrorMessage ="Not valid IPv4 address")]
+        [Display(Name = "IPAddress", ResourceType = typeof(PositionLocale))]
+        public string IPAddress { get; set; }
+
+        [Required]
+        [M2MSComparator(CompareOperator.LESS_THAN, nameof(MaxWorkDuration))]
+        [DataType("TimeSpan")]
+        [Display(Name = "WorkDuration", ResourceType = typeof(PositionLocale))]
+        public TimeSpan WorkDuration { get; set; }
+
+        [Required]
+        [M2MSComparator(CompareOperator.MORE_THAN, nameof(WorkDuration))]
+        [DataType("TimeSpan")]
+        [Display(Name = "MaxWorkDuration", ResourceType = typeof(PositionLocale))]
+        public TimeSpan MaxWorkDuration { get; set; }
+        
+        [StringLength(512)]
+        [Display(Name = "Description", ResourceType = typeof(PositionLocale))]
+        [DataType(DataType.MultilineText)]
+        public string Description { get; set; }        
+ }
+\end{lstlisting}
+\section{Navigácia v budovách - analáyza}
+Navigácia je v sučasnosti veľmi rozsiahlou problematikou , o ktorej by sa dala napísať samotná bakalárka práca. Moderné systémy ako napríklad GPS  sú najpoužívanejšie a najznámejšie. Fungujú  na základe odozvy signálu z niekoľkých satelitov , ktoré sa voľne pohybujú vo vesmíre.  GPS systém  má však podstatnú nevýhodu - priechod signálu cez prekážku. Ak by sme chceli použiť GPS signál  napríklad v podzemí alebo v budove, signál by sme  chytili iba veľmi sporadicky, alebo dokonca vôbec. Firma, v ktorej som vykonával prax sa venuje najmä priemyselným riešeniam. Jednou z akvizícii bolo  aj navigovanie  a lokalizácia v priestore - najmä v výrobných  halách a skladoch. Mojou úlohou bolo skúsiť  nájsť všetky dostupné riešenia  s detailnou analýzou. Okrem toho bolo mojou úlohou skúsiť zbierať  dáta zo senzorov mobilu(Akcelerometer, gyroskop a magnetometer)  a analyzovať ich, či je možné z nich získať  absolútnu pozíciu bez použitia GPS systému. Celá akvizícia je iba vo veľmi počiatočnej fáze  analýzy a preto ju spomínam iba veľmi okrajovo. 
+
+\subsection{Porovnanie dostupných technológii}
+Mojou prvou úlohou bolo nájsť a  porovnať všetky dostupné technológie , ktoré  by sa potenciálne mohli použiť na navigáciu v budových bez použitia GPS systémov. V analýze by mali byť zahrnuté  výhody, nevýhody,  technológia , analýza ceny, presnosť a podobne. Všetky informácie som čerpal z internetových zdrojov a rôznych videí. Ja som sa rozhodol o každej technológii  v krátkosti popísať a najdôležitejšie informácie zhrnúť do tabuľky. (\ref{tab})
+\begin{itemize}
+\item\textbf{Magneticke pole} Technológia je založená na  meraní úrovne magnetického poľa. Vychádza z toho, že každé miesto v budove má jedinečnú hodnotu magnetického poľa a je možne na základe tejto hodnoty určit   približnu lokáciu. Tento systém je možné použiť v budovách, kde nedochádza k  presunu nábytku a  veľkých predmetov ako nákupné centrá a nemocnice. Pre použitie v priemysle a v skladoch  s častým presúvaním rôznych kovových predmetov  a pohybom okolo silných elektromotorov je tento systém nepoužiteľný.
+\item\textbf{BLE beacony} V súčasnosti patrí jedno k najpoužívanejším  lokalizačným systémom  bez použitia GPS. Technológia pozostáva  s rozmiestnením bluetooth zariadení po budove a meraním útlmu signálu  napríklad mobilom. Pre zvýšenie životnosti týchto zariadení sa zvyčajne používa štandard BLE (\textit{Bluetooth Low Energy}), ktorý je v potovostnom režime a aktivuje sa iba pri požiadavke na komunikáciu. Pri  zistené úrovni signálu z  3 rôznych zariadení je možné pomocou trilaterácie vypočítať približnú polohu. Zariadenie je šak veľmi náročné z hľadiska počiatočnej aj dlhodobej  ceny. Pri výrobnej hale  100x100m by bolo potrebné použiť minimálne 100 Bluetooth zariadení. Každé zariadenie potrebuje inštaláciu a prívod napájania, čo predstavuje vysoké náklady pre zákazníka. 
+\item\textbf{Wifi} Vychádza z podobnýh princípov ako BLE beacony. Jediným rozdielom je to, že je možné použiť už existujúcu infraštruktúru wifi access pointov v budovách. Veľkou nevýhodou je citlivosť na prekážky a nedostatočná presnosť.
+\item\textbf{UWB} Ultra wideband je  pomerne nová technológia , ktorá je  navrhnutá pre vyriešenie problémov , ktoré vznikajú pri predchádzajúcich riešeniach. Tým , že pracuje na  vysokej frekvencii 3GHz až 10GHz, so šírkou pásma až 500MHz dokáže  bez problémov prejsť aj prekážkami a stenami bez zníženia presnosti. Výrobcovia technológie úvádzajú veľmi vysokú presnosť, ktorá však v reali dosahuje nižšie výsledky presnosti. Medzi jej nevýhodý patrí najmä vysoká cena zariadené a limitujúci maximálny počet  navigovaných objektov v počte približne 10 objektov.
+\item\textbf{Akcelerometer} Na požiadanie mojho šéfa Martina som dostal za úlohu preskúmať  aj  možnosť využiť   senzory z mobilu ako navigáciu. Jej výhody by mali plynúť z jednoduchosti použitia , vyhnutiu sa vybudovaniu infraštruktúry  a nízkej ceny inštalácie. Na zistovanie pohybu   je použitelný  akcelerometer. Ten zbiera údaje o zrýchlení v jednotkách \textit{m/s\textsuperscript{2}}. Podľa teórie, by sme mali byť schopní prvým integrálom vypočítať rýchlosť a druhým integrálom prejdenú vzdialenosť. Aj pri pomerne zložitých výpočtoch a zašumenému signálu zo senzoru padlo na prvotné rozhodnutie  začať zbierať dáta z akcelerometra.
+\end{itemize}
+
+\begin{table}
+\centering
+\label{tab}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+                              & \textbf{Mag. pole} & \textbf{BLE beacony} & \textbf{Wifi} & \textbf{UWB}  & \textbf{Akcelerometer} \\ \hline
+\textbf{Presnosť}             & 1-2.8m                        & 2m                         & 4m            & \textless30cm & Veľmi nepresné            \\ \hline
+\textbf{Dosah}                & -                             & 10m                        & 15m           & 25m           & -                         \\ \hline
+\textbf{Vstupná investícia}   & Veľmi nízka                   & Veľmi vysoká               & Nízka         & Veľmi vysoká  & Veľmi nízka               \\ \hline
+\textbf{Cena za údržbu}       & Nízka                         & Veľmi zložitá              & Nízka         & Veľmi vysoká  & Veľmi nízka               \\ \hline
+\textbf{Zložitosť inštalácie} & Nízka                         & Veľmi zložitá              & Zložitá       & Zložitá       & Žiadna                    \\ \hline
+\end{tabular}
+\caption{Porovnanie  jednotlivých technológií}
+\end{table}
+
+\subsection{Zber dát zo senzorov  v mobile}
+Po  prvotnej analýze nasledovalo aj napriek prevyšujúcim nevýhodam možnosť zbierať dáta z akcelerometre
+
+\subsection{Implementácia Kalmanovho filtra}
+Po úspešnom zozbieraní dát prišla na rad ich analýza a výpočty. Hneď na začiatku bol oz grafu vidieť, že signál je značne zašumený, čo môže  výrazne ovplyvniť  výsledok. 
 
 \newpage	
+\chapter{Záver}
+blabla ä
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c | c | c | c|} 
+ \hline
+  & Počet hodín & Počet dní\\ [0.5ex] 
+ \hline
+ Infopanely & 56 & 7  \\ 
+Lightnet TK & 220 & 27  \\
+Správa operátorov - OAC & 150 & 19  \\
+ Navigácia v budovách - analýza& 50 & 6   \\
+ \hline
+\end{tabular}
+\caption{Odpracovaný čas na jednotlivých projektoch}
+\end{table}
 
 %\backmatter
 
+\newpage
 \thispagestyle{empty}
 \nocite{*}
 \clearpage

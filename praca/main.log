@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.12.28)  4 MAR 2018 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.12.28)  12 APR 2018 21:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -426,6 +426,95 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count95
+\calc@Cskip=\skip47
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen120
+\AM@pageheight=\dimen121
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box29
+\AM@global@opts=\toks21
+\AM@toc@title=\toks22
+\c@AM@survey=\count96
+\AM@templatesizebox=\box30
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -468,7 +557,7 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
@@ -478,16 +567,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen118
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
+\@linkdim=\dimen122
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count95
+\Hy@SavedSpaceFactor=\count99
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -500,12 +589,12 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count96
+\c@Hy@tempcnt=\count100
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen119
-\Fld@menulength=\count97
-\Field@Width=\dimen120
-\Fld@charsize=\dimen121
+\XeTeXLinkMargin=\dimen123
+\Fld@menulength=\count101
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -515,24 +604,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count98
-\c@Item=\count99
-\c@Hfootnote=\count100
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count101
-\c@bookmark@seq@number=\count102
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip45
+\Hy@SectionHShift=\skip48
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
@@ -549,8 +638,8 @@ Language: slovak 2008/07/06 v3.1a Slovak support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count103
-\U@D=\dimen122
+\babel@savecnt=\count107
+\U@D=\dimen126
 )
 
 Package babel Warning: No hyphenation patterns were preloaded for
@@ -563,119 +652,109 @@ Package babel Warning: No hyphenation patterns were preloaded for
 Package babel Info: Making ^ an active character on input line 123.
 Package babel Info: Making " an active character on input line 126.
 Package babel Info: Making ' an active character on input line 129.
-\cs@wordlen=\count104
+\cs@wordlen=\count108
 Package babel Info: Making - an active character on input line 294.
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count105
-\lst@gtempboxa=\box29
-\lst@token=\toks21
-\lst@length=\count106
-\lst@currlwidth=\dimen123
-\lst@column=\count107
-\lst@pos=\count108
-\lst@lostspace=\dimen124
-\lst@width=\dimen125
-\lst@newlines=\count109
-\lst@lineno=\count110
-\lst@maxwidth=\dimen126
+\lst@mode=\count109
+\lst@gtempboxa=\box31
+\lst@token=\toks23
+\lst@length=\count110
+\lst@currlwidth=\dimen127
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen128
+\lst@width=\dimen129
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen130
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count111
-\lst@skipnumbers=\count112
-\lst@framebox=\box30
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package color Info: Redefining color cyan on input line 18.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count113
+\etb@tempcnta=\count117
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count114
+\lrq@indent=\count118
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
-\integerpart=\count115
-\decimalpart=\count116
+\integerpart=\count119
+\decimalpart=\count120
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count117
-\c@listtotal=\count118
-\c@listcount=\count119
-\c@liststart=\count120
-\c@liststop=\count121
-\c@citecount=\count122
-\c@citetotal=\count123
-\c@multicitecount=\count124
-\c@multicitetotal=\count125
-\c@instcount=\count126
-\c@maxnames=\count127
-\c@minnames=\count128
-\c@maxitems=\count129
-\c@minitems=\count130
-\c@citecounter=\count131
-\c@savedcitecounter=\count132
-\c@uniquelist=\count133
-\c@uniquename=\count134
-\c@refsection=\count135
-\c@refsegment=\count136
-\c@maxextratitle=\count137
-\c@maxextratitleyear=\count138
-\c@maxextradate=\count139
-\c@maxextraalpha=\count140
-\c@abbrvpenalty=\count141
-\c@highnamepenalty=\count142
-\c@lownamepenalty=\count143
-\c@maxparens=\count144
-\c@parenlevel=\count145
-\blx@tempcnta=\count146
-\blx@tempcntb=\count147
-\blx@tempcntc=\count148
-\blx@maxsection=\count149
-\blx@maxsegment@0=\count150
-\blx@notetype=\count151
-\blx@parenlevel@text=\count152
-\blx@parenlevel@foot=\count153
-\blx@sectionciteorder@0=\count154
-\labelnumberwidth=\skip46
-\labelalphawidth=\skip47
-\biblabelsep=\skip48
-\bibitemsep=\skip49
-\bibnamesep=\skip50
-\bibinitsep=\skip51
-\bibparsep=\skip52
-\bibhang=\skip53
+\c@tabx@nest=\count121
+\c@listtotal=\count122
+\c@listcount=\count123
+\c@liststart=\count124
+\c@liststop=\count125
+\c@citecount=\count126
+\c@citetotal=\count127
+\c@multicitecount=\count128
+\c@multicitetotal=\count129
+\c@instcount=\count130
+\c@maxnames=\count131
+\c@minnames=\count132
+\c@maxitems=\count133
+\c@minitems=\count134
+\c@citecounter=\count135
+\c@savedcitecounter=\count136
+\c@uniquelist=\count137
+\c@uniquename=\count138
+\c@refsection=\count139
+\c@refsegment=\count140
+\c@maxextratitle=\count141
+\c@maxextratitleyear=\count142
+\c@maxextradate=\count143
+\c@maxextraalpha=\count144
+\c@abbrvpenalty=\count145
+\c@highnamepenalty=\count146
+\c@lownamepenalty=\count147
+\c@maxparens=\count148
+\c@parenlevel=\count149
+\blx@tempcnta=\count150
+\blx@tempcntb=\count151
+\blx@tempcntc=\count152
+\blx@maxsection=\count153
+\blx@maxsegment@0=\count154
+\blx@notetype=\count155
+\blx@parenlevel@text=\count156
+\blx@parenlevel@foot=\count157
+\blx@sectionciteorder@0=\count158
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count155
-\c@maxcomprange=\count156
-\c@mincompwidth=\count157
+\c@mincomprange=\count159
+\c@maxcomprange=\count160
+\c@mincompwidth=\count161
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -684,80 +763,80 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count158
-\c@savedafterword=\count159
-\c@annotator=\count160
-\c@savedannotator=\count161
-\c@author=\count162
-\c@savedauthor=\count163
-\c@bookauthor=\count164
-\c@savedbookauthor=\count165
-\c@commentator=\count166
-\c@savedcommentator=\count167
-\c@editor=\count168
-\c@savededitor=\count169
-\c@editora=\count170
-\c@savededitora=\count171
-\c@editorb=\count172
-\c@savededitorb=\count173
-\c@editorc=\count174
-\c@savededitorc=\count175
-\c@foreword=\count176
-\c@savedforeword=\count177
-\c@holder=\count178
-\c@savedholder=\count179
-\c@introduction=\count180
-\c@savedintroduction=\count181
-\c@namea=\count182
-\c@savednamea=\count183
-\c@nameb=\count184
-\c@savednameb=\count185
-\c@namec=\count186
-\c@savednamec=\count187
-\c@translator=\count188
-\c@savedtranslator=\count189
-\c@shortauthor=\count190
-\c@savedshortauthor=\count191
-\c@shorteditor=\count192
-\c@savedshorteditor=\count193
-\c@labelname=\count194
-\c@savedlabelname=\count195
-\c@institution=\count196
-\c@savedinstitution=\count197
-\c@lista=\count198
-\c@savedlista=\count199
-\c@listb=\count266
-\c@savedlistb=\count267
-\c@listc=\count268
-\c@savedlistc=\count269
-\c@listd=\count270
-\c@savedlistd=\count271
-\c@liste=\count272
-\c@savedliste=\count273
-\c@listf=\count274
-\c@savedlistf=\count275
-\c@location=\count276
-\c@savedlocation=\count277
-\c@organization=\count278
-\c@savedorganization=\count279
-\c@origlocation=\count280
-\c@savedoriglocation=\count281
-\c@origpublisher=\count282
-\c@savedorigpublisher=\count283
-\c@publisher=\count284
-\c@savedpublisher=\count285
-\c@language=\count286
-\c@savedlanguage=\count287
-\c@origlanguage=\count288
-\c@savedoriglanguage=\count289
-\c@pageref=\count290
-\c@savedpageref=\count291
-\shorthandwidth=\skip54
-\shortjournalwidth=\skip55
-\shortserieswidth=\skip56
-\shorttitlewidth=\skip57
-\shortauthorwidth=\skip58
-\shorteditorwidth=\skip59
+\c@afterword=\count162
+\c@savedafterword=\count163
+\c@annotator=\count164
+\c@savedannotator=\count165
+\c@author=\count166
+\c@savedauthor=\count167
+\c@bookauthor=\count168
+\c@savedbookauthor=\count169
+\c@commentator=\count170
+\c@savedcommentator=\count171
+\c@editor=\count172
+\c@savededitor=\count173
+\c@editora=\count174
+\c@savededitora=\count175
+\c@editorb=\count176
+\c@savededitorb=\count177
+\c@editorc=\count178
+\c@savededitorc=\count179
+\c@foreword=\count180
+\c@savedforeword=\count181
+\c@holder=\count182
+\c@savedholder=\count183
+\c@introduction=\count184
+\c@savedintroduction=\count185
+\c@namea=\count186
+\c@savednamea=\count187
+\c@nameb=\count188
+\c@savednameb=\count189
+\c@namec=\count190
+\c@savednamec=\count191
+\c@translator=\count192
+\c@savedtranslator=\count193
+\c@shortauthor=\count194
+\c@savedshortauthor=\count195
+\c@shorteditor=\count196
+\c@savedshorteditor=\count197
+\c@labelname=\count198
+\c@savedlabelname=\count199
+\c@institution=\count266
+\c@savedinstitution=\count267
+\c@lista=\count268
+\c@savedlista=\count269
+\c@listb=\count270
+\c@savedlistb=\count271
+\c@listc=\count272
+\c@savedlistc=\count273
+\c@listd=\count274
+\c@savedlistd=\count275
+\c@liste=\count276
+\c@savedliste=\count277
+\c@listf=\count278
+\c@savedlistf=\count279
+\c@location=\count280
+\c@savedlocation=\count281
+\c@organization=\count282
+\c@savedorganization=\count283
+\c@origlocation=\count284
+\c@savedoriglocation=\count285
+\c@origpublisher=\count286
+\c@savedorigpublisher=\count287
+\c@publisher=\count288
+\c@savedpublisher=\count289
+\c@language=\count290
+\c@savedlanguage=\count291
+\c@origlanguage=\count292
+\c@savedoriglanguage=\count293
+\c@pageref=\count294
+\c@savedpageref=\count295
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -779,13 +858,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count292
-\c@textcitetotal=\count293
-\c@textcitemaxnames=\count294
-\c@biburlnumpenalty=\count295
-\c@biburlucpenalty=\count296
-\c@biburllcpenalty=\count297
-\c@smartand=\count298
+\c@textcitecount=\count296
+\c@textcitetotal=\count297
+\c@textcitemaxnames=\count298
+\c@biburlnumpenalty=\count299
+\c@biburlucpenalty=\count300
+\c@biburllcpenalty=\count301
+\c@smartand=\count302
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -808,16 +887,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count299
-\c@bbx:relatedtotal=\count300
+\c@bbx:relatedcount=\count303
+\c@bbx:relatedtotal=\count304
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric-comp.cbx"
 File: numeric-comp.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count301
-\c@cbx@tempcntb=\count302
+\c@cbx@tempcnta=\count305
+\c@cbx@tempcntb=\count306
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -846,33 +925,29 @@ File: slovak.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count303
-\@quotereset=\count304
-(main.aux
-
-LaTeX Warning: Label `fig:mesh1' multiply defined.
-
-
-LaTeX Warning: Label `fig:mesh1' multiply defined.
-
-)
+\@quotelevel=\count307
+\@quotereset=\count308
+(main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 128.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -909,17 +984,17 @@ LaTeX Font Info:    ... okay on input line 105.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen127
-\scratchbox=\box31
-\nofMPsegments=\count306
-\nofMParguments=\count307
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen128
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count309
+\scratchdimen=\dimen131
+\scratchbox=\box33
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen132
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks25
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -933,8 +1008,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 105.
+\AtBeginShipoutBox=\box34
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 128.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -942,17 +1026,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c@lstlisting=\count312
+\c@lstlisting=\count316
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -964,177 +1048,357 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 105.
-Package biblatex Info: Reference segment=0 on input line 105.
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
  [1
 
-{C:/Users/Asus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [4] [5] 
-(main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+{C:/Users/Asus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+
+pdfTeX warning: pdflatex (file ./vyhlasenie.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<vyhlasenie.pdf, id=171, 597.55246pt x 845.07718pt>
+File: vyhlasenie.pdf Graphic file (type pdf)
+ <use vyhlasenie.pdf>
+Package pdftex.def Info: vyhlasenie.pdf used on input line 183.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./vyhlasenie.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+File: vyhlasenie.pdf Graphic file (type pdf)
+<use vyhlasenie.pdf>
+Package pdftex.def Info: vyhlasenie.pdf used on input line 183.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./vyhlasenie.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./vyhlasenie.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<vyhlasenie.pdf, id=174, page=1, 597.55246pt x 845.07718pt>
+File: vyhlasenie.pdf Graphic file (type pdf)
+
+<use vyhlasenie.pdf, page 1>
+Package pdftex.def Info: vyhlasenie.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: vyhlasenie.pdf Graphic file (type pdf)
+ <use vyhlasenie.pdf, page 1>
+Package pdftex.def Info: vyhlasenie.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: vyhlasenie.pdf Graphic file (type pdf)
+
+<use vyhlasenie.pdf, page 1>
+Package pdftex.def Info: vyhlasenie.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: vyhlasenie.pdf Graphic file (type pdf)
+ <use vyhlasenie.pdf, page 1>
+Package pdftex.def Info: vyhlasenie.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: vyhlasenie.pdf Graphic file (type pdf)
+
+<use vyhlasenie.pdf, page 1>
+Package pdftex.def Info: vyhlasenie.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [3 <./vyhlasenie.pdf>] [4] [5] (main.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 17.
+ [7
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [6
-
-] [7
+ [8] [9
 
 ] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [8
+[10
 
 ] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
-(uvod.tex [9
+ [11
+
+] (main.lol)
+\tf@lol=\write9
+\openout9 = `main.lol'.
+
+ (uvod.tex [12
 
 ]
 Kapitola 1.
-) (firma.tex [10
+) (firma.tex [13
 
 ]
 Kapitola 2.
-) [11
+) [14
 
 ]
 Kapitola 3.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 250.
+(hyperref)                removing `\textasciicaron' on input line 297.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 255.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 302.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
- [12
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 302.
+
+Overfull \hbox (1.0353pt too wide) in paragraph at lines 307--309
+\T1/lmr/m/n/10.95 Projekt je postavený na novej plat-forme ASP.NET C#. Slúºi na
+ ev-i-den-ciu pra-cov-níkov vo výrobe.
+ []
+
+[15
 
 ]
 Kapitola 4.
-[13
+[16
 
 ]
 Kapitola 5.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 278.
+(hyperref)                removing `\textasciicaron' on input line 328.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 289.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [14
+Overfull \hbox (8.06201pt too wide) in paragraph at lines 329--330
+\T1/lmr/m/n/10.95 Na tomto pro-jekte som pra-co-val priebeºne po£as obid-voch s
+eme-strov. Jed-nalo sa na-jmä o odstra¬o-
+ []
 
-]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 330.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 330.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 294.
+) [17
+
+]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 340.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 340.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/RSS.png, id=187, 937.25156pt x 681.29532pt>
+<images/RSS.png, id=354, 937.25156pt x 681.29532pt>
 File: images/RSS.png Graphic file (type png)
  <use images/RSS.png>
-Package pdftex.def Info: images/RSS.png used on input line 301.
-(pdftex.def)             Requested size: 386.96027pt x 281.28728pt.
+Package pdftex.def Info: images/RSS.png used on input line 346.
+(pdftex.def)             Requested size: 432.48051pt x 314.37685pt.
 
-[15 <./images/RSS.png>]
-Overfull \hbox (0.11244pt too wide) in paragraph at lines 312--313
-\T1/cmr/m/n/10.95 da´/ed-i-to-va´/vy-maza´ stránku, nemá prístup k nas-tave-nia
+Underfull \hbox (badness 10000) in paragraph at lines 342--349
+
+ []
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+l'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 351.
+
+[18 <./images/RSS.png>]
+Overfull \hbox (5.05127pt too wide) in paragraph at lines 357--358
+\T1/lmr/m/n/10.95 pri-da´/ed-i-to-va´/vy-maza´ stránku, nemá prístup k nas-tave
+-niam, môºe ma-nip-ulo-va´ s £asovou
+ []
+
+
+Overfull \hbox (2.58762pt too wide) in paragraph at lines 358--359
+\T1/lmr/m/n/10.95 da´/ed-i-to-va´/vy-maza´ stránku, nemá prístup k nas-tave-nia
 m, nemôºe ma-nip-ulo-va´ s £asovou
  []
 
-<images/adduserrole.png, id=193, 328.97906pt x 95.6072pt>
-File: images/adduserrole.png Graphic file (type png)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [19]
 
-<use images/adduserrole.png>
-Package pdftex.def Info: images/adduserrole.png used on input line 321.
-(pdftex.def)             Requested size: 227.62206pt x 66.15283pt.
- [16 <./images/adduserrole.png>]
-<images/empty.png, id=201, 2.25844pt x 2.25844pt>
-File: images/empty.png Graphic file (type png)
- <use images/empty.png>
-Package pdftex.def Info: images/empty.png used on input line 344.
-(pdftex.def)             Requested size: 0.45847pt x 0.45845pt.
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 394.
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--354
-
- []
-
-
-Overfull \hbox (2.18083pt too wide) in paragraph at lines 357--364
-\T1/cmr/m/n/10.95 Prvým krokom bolo vymys-lie´ rozmi-est-ne-nie jed-notlivých t
+[20]
+Overfull \hbox (4.59622pt too wide) in paragraph at lines 402--407
+\T1/lmr/m/n/10.95 Prvým krokom bolo vymys-lie´ rozmi-est-ne-nie jed-notlivých t
 la£i-diel na stránke a re-al-i-zo-va´ samotný
  []
 
-[17 <./images/empty.png>] [18] [19] [20]
-Overfull \hbox (9.23639pt too wide) in paragraph at lines 419--419
-\T1/cmr/m/n/10.95 c2018[cit. 11.1.2018]. Dos-tupné z: []$http : / / www . m2ms 
-. sk / produkty / multimedialne -[] informacne -[]
+[21] <images/graphs.png, id=401, 1190.94937pt x 715.17188pt>
+File: images/graphs.png Graphic file (type png)
+
+<use images/graphs.png>
+Package pdftex.def Info: images/graphs.png used on input line 430.
+(pdftex.def)             Requested size: 455.24411pt x 273.37228pt.
+ [22 <./images/graphs.png>] [23]
+<images/contact.png, id=424, 542.77782pt x 523.20468pt>
+File: images/contact.png Graphic file (type png)
+
+<use images/contact.png>
+Package pdftex.def Info: images/contact.png used on input line 482.
+(pdftex.def)             Requested size: 409.71692pt x 394.95724pt.
+ [24] [25 <./images/contact.png>]
+<images/responseCompare.png, id=437, 633.86812pt x 502.87875pt>
+File: images/responseCompare.png Graphic file (type png)
+
+<use images/responseCompare.png>
+Package pdftex.def Info: images/responseCompare.png used on input line 522.
+(pdftex.def)             Requested size: 455.24411pt x 361.17464pt.
+ [26] [27 <./images/responseCompare.png>]
+[28] <images/oacdiagram.png, id=493, 565.36218pt x 615.0478pt>
+File: images/oacdiagram.png Graphic file (type png)
+
+<use images/oacdiagram.png>
+Package pdftex.def Info: images/oacdiagram.png used on input line 565.
+(pdftex.def)             Requested size: 432.48051pt x 470.50066pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--577
+
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
-[21
+[29 <./images/oacdiagram.png>] [30]
+<images/PropertyComparator.png, id=504, 758.08218pt x 687.31781pt>
+File: images/PropertyComparator.png Graphic file (type png)
+
+<use images/PropertyComparator.png>
+Package pdftex.def Info: images/PropertyComparator.png used on input line 607.
+(pdftex.def)             Requested size: 455.24411pt x 412.75044pt.
+ [31] [32 <./images/PropertyComparator.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 613--621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--621
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 650--657
+
+ []
+
+[34] [35] [36]
+Overfull \hbox (25.8022pt too wide) in paragraph at lines 700--709
+ [][] 
+ []
+
+[37] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [38]
+<images/kf.png, id=661, 966.61125pt x 259.7203pt>
+File: images/kf.png Graphic file (type png)
+ <use images/kf.png>
+Package pdftex.def Info: images/kf.png used on input line 786.
+(pdftex.def)             Requested size: 455.24411pt x 122.31822pt.
+ [39 <./images/kf.png>]
+Kapitola 6.
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 792.
+
+
+Overfull \hbox (2.34416pt too wide) in paragraph at lines 798--814
+\T1/lmr/m/n/10.95 dôleºité na-jmä pri h©adaní pra-cov-ného mi-esta v IT. Ke¤ºe 
+doku-men-tá-cia aj analýzy od zákazníkov
+ []
+
+[40
+
+] [41]
+Overfull \hbox (3.0286pt too wide) in paragraph at lines 822--822
+[]\T1/lmr/m/n/10.95 Github Inc. \T1/lmr/m/it/10.95 an-gu-lar/-ma-te-rial2: Ma-t
+e-rial De-sign com-po-nents for An-gu-lar\T1/lmr/m/n/10.95 . [on-line]. c2018[c
+it.
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 824.
+[42
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 824.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 824.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 824.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 744CED9BA7897C2F183F41918A543221;1211.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 7CC3D017C01C43C69BCDF203B8A94851;2933.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 824.
  ) 
 Here is how much of TeX's memory you used:
- 15778 strings out of 493347
- 249118 string characters out of 3139716
- 538165 words of memory out of 3000000
- 19038 multiletter control sequences out of 15000+200000
- 16365 words of font info for 37 fonts, out of 3000000 for 9000
+ 17842 strings out of 493347
+ 279121 string characters out of 3139716
+ 637400 words of memory out of 3000000
+ 20794 multiletter control sequences out of 15000+200000
+ 60289 words of font info for 42 fonts, out of 3000000 for 9000
  1136 hyphenation exceptions out of 8191
- 36i,8n,58p,1261b,1793s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-css1095.pk> <C:\Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ectt1095.pk> <C:\Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1200.pk> <C:\Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Asus\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Asus\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Asus\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Asu
-s\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\
-Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728
-.pk> <C:\Users\Asus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\eccc1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on main.pdf (20 pages, 297917 bytes).
+ 44i,18n,51p,2760b,1814s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmtto10.pfb>
+Output written on main.pdf (41 pages, 831135 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

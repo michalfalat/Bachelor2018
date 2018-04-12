@@ -1,20 +1,39 @@
-\BOOKMARK [0][-]{chapter*.2}{Zoznam skratiek}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Zoznam symbolov a skratiek}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{Zoznam obr\341zkov}{}% 2
 \BOOKMARK [0][-]{chapter*.4}{Zoznam tabuliek}{}% 3
-\BOOKMARK [0][-]{chapter.1}{\332vod}{}% 4
-\BOOKMARK [0][-]{chapter.2}{Firma}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Popis firmy}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Produkty firmy}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Pracovn\351 zaradenie}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter*.5}{Zoznam v\375pisov zdrojov\351ho k\363du}{}% 4
+\BOOKMARK [0][-]{chapter.1}{\332vod}{}% 5
+\BOOKMARK [0][-]{chapter.2}{Firma}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Odborn\351 zameranie firmy}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Pracovn\351 zaradenie}{chapter.2}% 8
 \BOOKMARK [0][-]{chapter.3}{Popis projektov}{}% 9
 \BOOKMARK [1][-]{section.3.1}{Multimedi\341lne informacn\351 panely}{chapter.3}% 10
 \BOOKMARK [1][-]{section.3.2}{LightNet TK}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{.NET platforma M2Ms}{chapter.3}% 12
-\BOOKMARK [0][-]{chapter.4}{Pou\236it\351 technol\363gie}{}% 13
-\BOOKMARK [1][-]{section.4.1}{.NET Framework}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{Angular}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{GIT}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Zadan\351 \372lohy a rie\235enia}{}% 17
-\BOOKMARK [1][-]{section.5.1}{Multimedi\341lne informacn\351 panely}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.2}{LightNet TK}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.3}{Spr\341va oper\341toro??v}{chapter.5}% 20
+\BOOKMARK [1][-]{section.3.3}{Spr\341va evidencie oper\341torov - OAC}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Ostatn\351 projekty}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Pou\236it\351 technol\363gie}{}% 14
+\BOOKMARK [1][-]{section.4.1}{.NET Framework}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Angular}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{GIT}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Zadan\351 \372lohy a rie\235enia}{}% 18
+\BOOKMARK [1][-]{section.5.1}{Multimedi\341lne informacn\351 panely}{chapter.5}% 19
+\BOOKMARK [2][-]{subsection.5.1.1}{Komponent RSS c\355tacka}{section.5.1}% 20
+\BOOKMARK [2][-]{subsection.5.1.2}{Pridanie pou\236\355vatelsk\375ch rol\355}{section.5.1}% 21
+\BOOKMARK [1][-]{section.5.2}{LightNet TK}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{Pridanie \235abl\363n pre merania na rozv\341dzacoch }{section.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.2.2}{Lokaliz\341cia SK/EN}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.3}{Pridanie kontaktn\351ho formul\341ru }{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.4}{Optimaliz\341cia pre mobiln\351 zariadenia}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.5}{Inteligentn\341 li\235ta }{section.5.2}% 27
+\BOOKMARK [1][-]{section.5.3}{Spr\341va evidencie oper\341torov - OAC}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.3.1}{Platforma - Property comparator}{section.5.3}% 29
+\BOOKMARK [2][-]{subsection.5.3.2}{Implement\341cia business logiky}{section.5.3}% 30
+\BOOKMARK [2][-]{subsection.5.3.3}{Formul\341r na pridanie poz\355cie}{section.5.3}% 31
+\BOOKMARK [1][-]{section.5.4}{Navig\341cia v budov\341ch - anal\375za}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.4.1}{Porovnanie dostupn\375ch technol\363gii}{section.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.4.2}{Zber d\341t zo senzorov v mobile}{section.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.4.3}{Implement\341cia Kalmanovho filtra}{section.5.4}% 35
+\BOOKMARK [0][-]{chapter.6}{Z\341ver}{}% 36
+\BOOKMARK [1][-]{section.6.1}{Vyu\236itie znalost\355 z\355skan\375ch pocas \235t\372dia}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.2}{Ch\375baj\372ce znalosti a nov\351 technol\363gie}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.3}{Celkov\351 vyhodnotenie odbornej praxe}{chapter.6}% 39

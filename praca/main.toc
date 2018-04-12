@@ -2,42 +2,80 @@
 \defcounter {refsection}{0}\relax 
 \select@language {slovak}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Zoznam skratiek}{7}{chapter*.2}
+\contentsline {chapter}{Zoznam symbolov a skratiek}{9}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Zoznam obr\'azkov}{8}{chapter*.3}
+\contentsline {chapter}{Zoznam obr\'azkov}{10}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Zoznam tabuliek}{9}{chapter*.4}
+\contentsline {chapter}{Zoznam tabuliek}{11}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{10}{chapter.1}
+\contentsline {chapter}{Zoznam v\IeC {\'y}pisov zdrojov\IeC {\'e}ho k\IeC {\'o}du}{12}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Firma}{11}{chapter.2}
+\contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{13}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Popis firmy}{11}{section.2.1}
+\contentsline {chapter}{\numberline {2}Firma}{14}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Produkty firmy}{11}{section.2.2}
+\contentsline {section}{\numberline {2.1}Odborn\IeC {\'e} zameranie firmy}{14}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Pracovn\IeC {\'e} zaradenie}{11}{section.2.3}
+\contentsline {section}{\numberline {2.2}Pracovn\IeC {\'e} zaradenie}{14}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Popis projektov}{12}{chapter.3}
+\contentsline {chapter}{\numberline {3}Popis projektov}{15}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Multimedi\IeC {\'a}lne informa\IeC {\v c}n\IeC {\'e} panely}{12}{section.3.1}
+\contentsline {section}{\numberline {3.1}Multimedi\IeC {\'a}lne informa\IeC {\v c}n\IeC {\'e} panely}{15}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}LightNet TK}{12}{section.3.2}
+\contentsline {section}{\numberline {3.2}LightNet TK}{15}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}.NET platforma M2Ms}{12}{section.3.3}
+\contentsline {section}{\numberline {3.3}Spr\IeC {\'a}va evidencie oper\IeC {\'a}torov - OAC}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{13}{chapter.4}
+\contentsline {section}{\numberline {3.4}Ostatn\IeC {\'e} projekty}{15}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}.NET Framework}{13}{section.4.1}
+\contentsline {chapter}{\numberline {4}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{16}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Angular}{13}{section.4.2}
+\contentsline {section}{\numberline {4.1}.NET Framework}{16}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}GIT}{13}{section.4.3}
+\contentsline {section}{\numberline {4.2}Angular}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Zadan\IeC {\'e} \IeC {\'u}lohy a rie\IeC {\v s}enia}{14}{chapter.5}
+\contentsline {section}{\numberline {4.3}GIT}{16}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Multimedi\IeC {\'a}lne informa\IeC {\v c}n\IeC {\'e} panely}{14}{section.5.1}
+\contentsline {chapter}{\numberline {5}Zadan\IeC {\'e} \IeC {\'u}lohy a rie\IeC {\v s}enia}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}LightNet TK}{17}{section.5.2}
+\contentsline {section}{\numberline {5.1}Multimedi\IeC {\'a}lne informa\IeC {\v c}n\IeC {\'e} panely}{17}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Spr\IeC {\'a}va oper\IeC {\'a}toro??v}{20}{section.5.3}
+\contentsline {subsection}{\numberline {5.1.1}Komponent RSS \IeC {\v c}\IeC {\'\i }ta\IeC {\v c}ka}{17}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Pridanie pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'y}ch rol\IeC {\'\i }}{19}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}LightNet TK}{20}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Pridanie \IeC {\v s}abl\IeC {\'o}n pre merania na rozv\IeC {\'a}dza\IeC {\v c}och }{20}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Lokaliz\IeC {\'a}cia SK/EN}{22}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Pridanie kontaktn\IeC {\'e}ho formul\IeC {\'a}ru }{24}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Optimaliz\IeC {\'a}cia pre mobiln\IeC {\'e} zariadenia}{25}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Inteligentn\IeC {\'a} li\IeC {\v s}ta }{28}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Spr\IeC {\'a}va evidencie oper\IeC {\'a}torov - OAC}{29}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Platforma - Property comparator}{30}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Implement\IeC {\'a}cia business logiky}{33}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Formul\IeC {\'a}r na pridanie poz\IeC {\'\i }cie}{34}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Navig\IeC {\'a}cia v budov\IeC {\'a}ch - anal\IeC {\'y}za}{36}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Porovnanie dostupn\IeC {\'y}ch technol\IeC {\'o}gii}{36}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Zber d\IeC {\'a}t zo senzorov v mobile}{37}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Implement\IeC {\'a}cia Kalmanovho filtra}{39}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Z\IeC {\'a}ver}{40}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Vyu\IeC {\v z}itie znalost\IeC {\'\i } z\IeC {\'\i }skan\IeC {\'y}ch po\IeC {\v c}as \IeC {\v s}t\IeC {\'u}dia}{40}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Ch\IeC {\'y}baj\IeC {\'u}ce znalosti a nov\IeC {\'e} technol\IeC {\'o}gie}{40}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Celkov\IeC {\'e} vyhodnotenie odbornej praxe}{40}{section.6.3}

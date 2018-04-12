@@ -17,6 +17,36 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{bishop2001introduction}{article}{}
+    \true{moreauthor}
+    \name{author}{2}{}{%
+      {{hash=BG}{%
+         family={Bishop},
+         familyi={B\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Welch},
+         familyi={W\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGWG+1}
+    \strng{fullhash}{BGWG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{27599-23175}
+    \field{pages}{41}
+    \field{title}{An introduction to the Kalman filter}
+    \field{volume}{8}
+    \field{journaltitle}{Proc of SIGGRAPH, Course}
+    \field{year}{2001}
+  \endentry
+
   \entry{material}{misc}{}
     \name{author}{1}{}{%
       {{hash=IG}{%
@@ -64,6 +94,100 @@
     \field{year}{c2018[cit. 11.1.2018]. Dostupné z:}
   \endentry
 
+  \entry{lee2007comparative}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LJS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jin-Shyan},
+         giveni={J\bibinitperiod-S\bibinitperiod},
+      }}%
+      {{hash=SYW}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yu-Wei},
+         giveni={Y\bibinitperiod-W\bibinitperiod},
+      }}%
+      {{hash=SCC}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Chung-Chou},
+         giveni={C\bibinitperiod-C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Ieee}%
+    }
+    \strng{namehash}{LJSSYWSCC1}
+    \strng{fullhash}{LJSSYWSCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Industrial Electronics Society, 2007. IECON 2007. 33rd
+  Annual Conference of the IEEE}
+    \field{pages}{46\bibrangedash 51}
+    \field{title}{A comparative study of wireless protocols: Bluetooth, UWB,
+  ZigBee, and Wi-Fi}
+    \field{year}{2007}
+  \endentry
+
+  \entry{git}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Loeliger},
+         familyi={L\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={McCullough},
+         familyi={M\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {" O'Reilly Media, Inc."}%
+    }
+    \strng{namehash}{LJMM1}
+    \strng{fullhash}{LJMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Version Control with Git: Powerful tools and techniques for
+  collaborative software development}
+    \field{year}{2012}
+  \endentry
+
+  \entry{trilat}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MDE}{%
+         family={Manolakis},
+         familyi={M\bibinitperiod},
+         given={Dimitris\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MDE1}
+    \strng{fullhash}{MDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{1239\bibrangedash 1248}
+    \field{title}{Efficient solution and performance analysis of 3-D position
+  estimation by trilateration}
+    \field{volume}{32}
+    \field{journaltitle}{IEEE Transactions on Aerospace and Electronic systems}
+    \field{year}{1996}
+  \endentry
+
   \entry{net}{misc}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -83,6 +207,29 @@
     \verb https://www.microsoft.com/net/learn/what-is-dotnet
     \endverb
     \field{year}{c2018[cit. 7.1.2018]. Dostupné z:}
+  \endentry
+
+  \entry{i18n}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Spiegel},
+         familyi={S\bibinitperiod},
+         given={Marcus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{[online]}
+    \field{title}{\textit{i18n}}
+    \verb{url}
+    \verb https://www.npmjs.com/package/i18n
+    \endverb
+    \field{year}{c2016[cit. 14.3.2018]. Dostupné z:}
   \endentry
 
   \entry{panely}{misc}{}
@@ -134,40 +281,6 @@
     \verb http://www.m2ms.sk/o-nas/
     \endverb
     \field{year}{c2018[cit. 7.1.2018]. Dostupné z:}
-  \endentry
-
-  \entry{flic}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{howpublished}{[online]}
-    \field{title}{\textit{Flic - Smart Bluetooth Button - Pure simplicity at
-  the click of a button.}}
-    \verb{url}
-    \verb https://flic.io/
-    \endverb
-    \field{year}{c2018[cit. 13.1.2018]. Dostupné z:}
-  \endentry
-
-  \entry{git}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={Wikipedia},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{howpublished}{[online]}
-    \field{title}{\textit{{Git} - {W}ikipedia{,} The Free Encyclopedia}}
-    \verb{url}
-    \verb http://en.wikipedia.org/w/index.php?title=Git&oldid=820262710
-    \endverb
-    \field{year}{c2018[cit. 15.1.2018]. Dostupné z:}
   \endentry
 \enddatalist
 \endinput
